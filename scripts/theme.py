@@ -1,0 +1,327 @@
+"""사이트 공통 디자인 토큰 · 레이아웃 · 애드센스 유닛.
+
+build.py 가 이 모듈의 CSS/LAYOUT 을 가져다 쓴다.
+"""
+
+SITE_URL = "https://ipo.qjawnsl112.com"
+SITE_NAME = "공모주 캘린더"
+NA = "확인 불가"
+
+AD_CLIENT = "ca-pub-9705278233317075"
+AD_SLOT_DISPLAY = "5549605452"
+AD_SLOT_MULTIPLEX = "5874355734"
+AD_SLOT_INFEED = "6501041690"
+
+AD_HEAD = (
+    '<script async src="https://pagead2.googlesyndication.com/pagead/js/'
+    f'adsbygoogle.js?client={AD_CLIENT}" crossorigin="anonymous"></script>'
+)
+
+
+def ad(kind="display"):
+    """본문 사이에 넣는 광고 유닛. kind: display | infeed | multiplex"""
+    if kind == "multiplex":
+        ins = (f'<ins class="adsbygoogle" style="display:block" '
+               f'data-ad-format="autorelaxed" data-ad-client="{AD_CLIENT}" '
+               f'data-ad-slot="{AD_SLOT_MULTIPLEX}"></ins>')
+        label = "관련 콘텐츠"
+    elif kind == "infeed":
+        ins = (f'<ins class="adsbygoogle" style="display:block" '
+               f'data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" '
+               f'data-ad-client="{AD_CLIENT}" data-ad-slot="{AD_SLOT_INFEED}"></ins>')
+        label = ""
+    else:
+        ins = (f'<ins class="adsbygoogle" style="display:block" '
+               f'data-ad-client="{AD_CLIENT}" data-ad-slot="{AD_SLOT_DISPLAY}" '
+               f'data-ad-format="auto" data-full-width-responsive="true"></ins>')
+        label = ""
+    head = f'<div class="ad-label">{label}</div>' if label else ""
+    return (f'<aside class="ad ad-{kind}">{head}{ins}'
+            '<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></aside>')
+
+
+FONT = ('<link rel=preconnect href="https://cdn.jsdelivr.net">'
+        '<link rel=stylesheet href="https://cdn.jsdelivr.net/gh/orioncactus/'
+        'pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">')
+
+CSS = """
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+ --bg:#f7f8fa; --bg2:#eef1f6; --card:#fff; --card2:#fbfcfe;
+ --tx:#11131a; --tx2:#3d4351; --sub:#6c7382; --faint:#9aa1b1;
+ --line:#e4e7ee; --line2:#eef0f5;
+ --pri:#2b5ce6; --pri2:#5b82f5; --pri-bg:#eaf0ff;
+ --live:#0a9d5a; --live-bg:#e4f6ed;
+ --warn:#d9600b; --warn-bg:#fff2e6;
+ --rose:#d1365a; --rose-bg:#ffeaef;
+ --done:#8b93a3; --done-bg:#eef0f4;
+ --shadow:0 1px 2px rgba(17,19,26,.04),0 4px 14px rgba(17,19,26,.05);
+ --shadow2:0 2px 6px rgba(17,19,26,.06),0 12px 32px rgba(17,19,26,.09);
+ --r:14px; --r2:10px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+ --bg:#0b0d12; --bg2:#12151c; --card:#151922; --card2:#1a1f2a;
+ --tx:#eceef3; --tx2:#c3c8d4; --sub:#939bab; --faint:#6b7382;
+ --line:#242936; --line2:#1e222c;
+ --pri:#7ea2ff; --pri2:#5b82f5; --pri-bg:#18233c;
+ --live:#43d68d; --live-bg:#10281d;
+ --warn:#fb9a4c; --warn-bg:#2b1c0f;
+ --rose:#ff7d9c; --rose-bg:#2c1119;
+ --done:#7a8292; --done-bg:#1d2129;
+ --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+ --shadow2:0 2px 6px rgba(0,0,0,.35),0 12px 32px rgba(0,0,0,.4);
+}}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--tx);
+ font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;
+ font-size:15px;line-height:1.65;letter-spacing:-.011em;
+ font-feature-settings:"tnum" 1}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+
+/* ---------- 헤더 ---------- */
+.hdr{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--card) 88%,transparent);
+ backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid var(--line)}
+.hdr-in{max-width:960px;margin:0 auto;padding:0 18px;display:flex;align-items:center;gap:20px;height:58px}
+.logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:16.5px;letter-spacing:-.03em;flex:none}
+.logo-mk{width:26px;height:26px;border-radius:8px;flex:none;
+ background:linear-gradient(135deg,var(--pri) 0%,#7c4ded 100%);
+ display:grid;place-items:center;color:#fff;font-size:13px;font-weight:900}
+.nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{font-size:14px;color:var(--sub);font-weight:500;padding:6px 10px;border-radius:8px;white-space:nowrap}
+.nav a:hover{background:var(--bg2);color:var(--tx)}
+.nav a.on{color:var(--pri);background:var(--pri-bg);font-weight:700}
+
+/* ---------- 레이아웃 ---------- */
+.wrap{max-width:960px;margin:0 auto;padding:0 18px}
+main{padding-bottom:20px}
+h1{font-size:26px;font-weight:800;letter-spacing:-.035em;line-height:1.3}
+h2{font-size:18.5px;font-weight:750;letter-spacing:-.028em;margin:38px 0 14px;
+ display:flex;align-items:center;gap:9px}
+h2 .cnt{font-size:13px;font-weight:700;color:var(--sub);background:var(--bg2);
+ padding:2px 9px;border-radius:99px}
+h3{font-size:16px;font-weight:700;letter-spacing:-.02em;margin:26px 0 9px}
+p{color:var(--tx2)}
+.lead{color:var(--sub);font-size:14.5px;margin-top:8px}
+.muted{color:var(--sub);font-size:13px}
+.na{color:var(--faint);font-size:.95em;font-weight:500}
+
+/* ---------- 히어로 ---------- */
+.hero{position:relative;overflow:hidden;border-radius:20px;padding:30px 26px;margin:22px 0 8px;
+ background:linear-gradient(135deg,#1c2b5e 0%,#2b5ce6 55%,#6d3fe0 100%);color:#fff;
+ box-shadow:var(--shadow2)}
+.hero::after{content:"";position:absolute;inset:0;pointer-events:none;
+ background:radial-gradient(700px 300px at 88% -10%,rgba(255,255,255,.28),transparent 60%),
+            radial-gradient(500px 260px at 8% 115%,rgba(255,255,255,.15),transparent 60%)}
+.hero h1{color:#fff;font-size:27px;position:relative;z-index:1}
+.hero p{color:rgba(255,255,255,.84);font-size:14.5px;margin-top:9px;position:relative;z-index:1;
+ max-width:52ch}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px;
+ position:relative;z-index:1}
+.stat{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.18);
+ border-radius:12px;padding:12px 13px;backdrop-filter:blur(6px)}
+.stat b{display:block;font-size:22px;font-weight:800;letter-spacing:-.04em;line-height:1.2}
+.stat span{font-size:11.5px;color:rgba(255,255,255,.8);font-weight:600}
+
+/* ---------- 카드 ---------- */
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+ padding:17px 18px;box-shadow:var(--shadow)}
+.ipo{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+ padding:16px 18px 15px;margin-bottom:11px;box-shadow:var(--shadow);position:relative;
+ overflow:hidden;transition:transform .16s ease,box-shadow .16s ease,border-color .16s}
+.ipo::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--line)}
+.ipo.s-live::before{background:linear-gradient(var(--live),#0bbd6c)}
+.ipo.s-soon::before{background:linear-gradient(var(--warn),#f59e0b)}
+.ipo.s-later::before{background:linear-gradient(var(--pri),var(--pri2))}
+.ipo.s-done::before{background:var(--done)}
+.ipo:hover{transform:translateY(-2px);box-shadow:var(--shadow2);border-color:var(--pri2)}
+.ipo-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.ipo-nm{font-size:16.5px;font-weight:750;letter-spacing:-.028em;display:flex;align-items:center;
+ gap:7px;flex-wrap:wrap}
+.mkt{font-size:10.5px;font-weight:800;padding:2px 7px;border-radius:5px;
+ background:var(--bg2);color:var(--sub);letter-spacing:.01em}
+.ipo-sub{color:var(--sub);font-size:13px;margin-top:5px}
+.ipo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:13px;
+ background:var(--line2);border-radius:var(--r2);overflow:hidden}
+.ipo-grid div{background:var(--card2);padding:9px 11px}
+.ipo-grid dt{font-size:11px;color:var(--sub);font-weight:600}
+.ipo-grid dd{font-size:13.5px;font-weight:700;margin-top:2px;letter-spacing:-.02em}
+
+/* ---------- 뱃지 ---------- */
+.bdg{font-size:11.5px;font-weight:800;padding:4px 10px;border-radius:99px;white-space:nowrap;
+ letter-spacing:-.01em;flex:none}
+.b-live{background:var(--live-bg);color:var(--live)}
+.b-soon{background:var(--warn-bg);color:var(--warn)}
+.b-later{background:var(--pri-bg);color:var(--pri)}
+.b-done{background:var(--done-bg);color:var(--done)}
+.b-fix{background:var(--live-bg);color:var(--live);font-size:10.5px;padding:2px 7px;border-radius:5px}
+.b-under{background:var(--rose-bg);color:var(--rose);font-size:10.5px;padding:2px 7px;border-radius:5px}
+.dot{width:6px;height:6px;border-radius:99px;display:inline-block;margin-right:5px;
+ background:currentColor;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+/* ---------- 증권사 칩 ---------- */
+.brokers{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--bg2);
+ border:1px solid var(--line);border-radius:99px;padding:4px 11px 4px 4px;
+ font-size:12.5px;font-weight:650;color:var(--tx2)}
+.av{width:20px;height:20px;border-radius:99px;display:grid;place-items:center;
+ font-size:10px;font-weight:800;color:#fff;flex:none}
+
+/* ---------- 달력 ---------- */
+.cal{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+ padding:16px;box-shadow:var(--shadow);margin-bottom:12px}
+.cal-h{font-size:15px;font-weight:750;margin-bottom:12px;letter-spacing:-.02em}
+.cal-g{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.cal-w{font-size:11px;color:var(--sub);text-align:center;font-weight:700;padding-bottom:4px}
+.cal-w.sun{color:var(--rose)}
+.cal-d{aspect-ratio:1;border-radius:9px;padding:5px 4px 4px;font-size:11.5px;
+ display:flex;flex-direction:column;align-items:center;gap:3px;background:var(--bg2);
+ color:var(--sub);min-height:44px}
+.cal-d.out{background:transparent;color:var(--faint);opacity:.45}
+.cal-d.today{outline:2px solid var(--pri);outline-offset:-2px;color:var(--pri);font-weight:800}
+.cal-d.has{background:var(--card2);border:1px solid var(--line);color:var(--tx);font-weight:700}
+.cal-ev{display:flex;gap:2px;flex-wrap:wrap;justify-content:center}
+.ev{width:5px;height:5px;border-radius:99px}
+.ev-sub{background:var(--live)}
+.ev-pay{background:var(--pri)}
+.cal-lg{display:flex;gap:14px;margin-top:12px;font-size:11.5px;color:var(--sub);flex-wrap:wrap}
+.cal-lg i{display:inline-block;width:7px;height:7px;border-radius:99px;margin-right:5px}
+
+/* ---------- 타임라인 ---------- */
+.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:14px 0 4px;
+ background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+ padding:18px 14px 15px;box-shadow:var(--shadow)}
+.tl-s{position:relative;text-align:center;padding-top:22px}
+.tl-s::before{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);
+ width:11px;height:11px;border-radius:99px;background:var(--line);border:2px solid var(--card);
+ box-shadow:0 0 0 2px var(--line);z-index:2}
+.tl-s::after{content:"";position:absolute;top:11px;left:50%;width:100%;height:2px;background:var(--line)}
+.tl-s:last-child::after{display:none}
+.tl-s.ok::before{background:var(--pri);box-shadow:0 0 0 2px var(--pri)}
+.tl-s.ok::after{background:var(--pri)}
+.tl-s.now::before{background:var(--live);box-shadow:0 0 0 3px var(--live-bg)}
+.tl-s b{display:block;font-size:12.5px;font-weight:750}
+.tl-s span{font-size:11.5px;color:var(--sub)}
+
+/* ---------- 가격 바 ---------- */
+.pbar{margin:12px 0 2px}
+.pbar-t{display:flex;justify-content:space-between;font-size:11.5px;color:var(--sub);
+ font-weight:600;margin-bottom:6px}
+.pbar-r{height:9px;border-radius:99px;background:var(--bg2);position:relative}
+.pbar-f{position:absolute;inset:0;border-radius:99px;
+ background:linear-gradient(90deg,var(--pri2),var(--pri))}
+.pbar-m{position:absolute;top:-4px;width:3px;height:17px;border-radius:2px;background:var(--rose);
+ box-shadow:0 0 0 2px var(--card)}
+
+/* ---------- 표 ---------- */
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;
+ border:1px solid var(--line);border-radius:var(--r);background:var(--card);box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{background:var(--card2);color:var(--sub);font-size:11.5px;font-weight:700;text-align:left;
+ padding:10px 13px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:12px 13px;border-bottom:1px solid var(--line2);vertical-align:top}
+tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--card2)}
+
+/* ---------- 기타 ---------- */
+.note{background:var(--warn-bg);color:var(--warn);border-radius:var(--r2);
+ padding:12px 15px;font-size:13.5px;font-weight:600;margin:16px 0}
+.note.info{background:var(--pri-bg);color:var(--pri)}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;
+ background:var(--line2);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+ box-shadow:var(--shadow)}
+.kv>div{background:var(--card);padding:13px 15px}
+.kv dt{font-size:11.5px;color:var(--sub);font-weight:600}
+.kv dd{font-size:16px;font-weight:750;margin-top:3px;letter-spacing:-.025em}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:var(--r2);
+ margin-bottom:8px;box-shadow:var(--shadow);overflow:hidden}
+.faq summary{padding:14px 16px;font-size:14.5px;font-weight:700;cursor:pointer;
+ list-style:none;display:flex;justify-content:space-between;gap:10px;letter-spacing:-.02em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--pri);font-weight:800;font-size:17px;flex:none}
+.faq[open] summary::after{content:"−"}
+.faq-b{padding:0 16px 15px;font-size:14px;color:var(--tx2)}
+.faq-b p+p{margin-top:9px}
+.art{font-size:15.5px;line-height:1.78}
+.art p{margin:13px 0;color:var(--tx2)}
+.art ul,.art ol{margin:13px 0 13px 20px;color:var(--tx2)}
+.art li{margin:7px 0}
+.art b{color:var(--tx);font-weight:700}
+.art .scroll{margin:16px 0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:11px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 17px;
+ box-shadow:var(--shadow);transition:transform .16s,box-shadow .16s,border-color .16s}
+.tile:hover{transform:translateY(-2px);box-shadow:var(--shadow2);border-color:var(--pri2)}
+.tile b{display:block;font-size:15px;font-weight:750;letter-spacing:-.025em}
+.tile span{display:block;font-size:12.5px;color:var(--sub);margin-top:5px;line-height:1.55}
+.gl{background:var(--card);border:1px solid var(--line);border-radius:var(--r2);
+ padding:14px 16px;margin-bottom:8px;box-shadow:var(--shadow)}
+.gl b{font-size:14.5px;font-weight:750}
+.gl p{font-size:13.5px;margin-top:4px}
+
+/* ---------- 광고 ---------- */
+.ad{margin:26px 0;min-height:1px;overflow:hidden}
+.ad-label{font-size:11px;color:var(--faint);font-weight:600;margin-bottom:6px;
+ letter-spacing:.02em;text-align:center}
+.ad-infeed{margin:14px 0;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);
+ padding:6px 0}
+
+/* ---------- 푸터 ---------- */
+footer{border-top:1px solid var(--line);margin-top:46px;padding:26px 0 44px;
+ background:var(--card);color:var(--sub);font-size:12.5px}
+footer p{color:var(--sub);margin-bottom:7px;font-size:12.5px}
+footer a{color:var(--pri);font-weight:600}
+.f-nav{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px;font-weight:600}
+.f-nav a{color:var(--tx2)}
+
+@media(max-width:640px){
+ body{font-size:14.5px}
+ h1{font-size:22px} .hero h1{font-size:22px} .hero{padding:24px 20px;border-radius:16px}
+ .stats{grid-template-columns:repeat(2,1fr)}
+ .stat b{font-size:19px}
+ .ipo-grid{grid-template-columns:1fr 1fr}
+ .tl{grid-template-columns:1fr 1fr;gap:14px 0}
+ .tl-s:nth-child(2)::after{display:none}
+ .hdr-in{gap:12px;height:54px}
+}
+"""
+
+
+def layout(title, desc, body, path, nav_on="", updated="", extra=""):
+    depth = path.count("/")
+    up = "../" * depth
+    navs = [("", "청약 캘린더"), ("brokers.html", "증권사별"),
+            ("results.html", "상장 후 성적"), ("guide/", "가이드"),
+            ("glossary.html", "용어사전")]
+    nv = "".join(f'<a href="{up}{h}"{" class=on" if h == nav_on else ""}>{t}</a>'
+                 for h, t in navs)
+    fnav = "".join(f'<a href="{up}{h}">{t}</a>' for h, t in navs)
+    return f"""<!doctype html><html lang=ko><head>
+<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>{title}</title>
+<meta name=description content="{desc}">
+<link rel=canonical href="{SITE_URL}/{path}">
+<meta property=og:site_name content="{SITE_NAME}">
+<meta property=og:title content="{title}">
+<meta property=og:description content="{desc}">
+<meta property=og:type content=website>
+<meta property=og:url content="{SITE_URL}/{path}">
+<meta name=twitter:card content=summary>
+<link rel=icon href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232b5ce6'/><path d='M22 66l18-20 14 12 24-28' stroke='white' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+{FONT}<style>{CSS}</style>{extra}{AD_HEAD}
+</head><body>
+<header class=hdr><div class=hdr-in>
+<a href="{up}" class=logo><span class=logo-mk>공</span>공모주 캘린더</a>
+<nav class=nav>{nv}</nav>
+</div></header>
+<main class=wrap>{body}</main>
+<footer><div class=wrap>
+<div class=f-nav>{fnav}</div>
+<p><b style="color:var(--tx2)">{SITE_NAME}</b> · 금융감독원 전자공시(DART)의 증권신고서를
+자동으로 수집해 정리합니다. 마지막 갱신 {updated}</p>
+<p>이 사이트의 정보는 투자 참고용이며 투자 권유가 아닙니다. 공시 정정으로 일정과 공모가가
+바뀔 수 있으니, 청약 전 반드시 해당 증권사 공지와
+<a href="https://dart.fss.or.kr" rel=nofollow>DART 원문</a>을 확인하세요.</p>
+</div></footer></body></html>"""
