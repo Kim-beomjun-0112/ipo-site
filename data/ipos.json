@@ -1,0 +1,1189 @@
+{
+ "updated_at": "2026-09-17 22:53",
+ "count": 23,
+ "items": [
+  {
+   "rcept_no": "20260909000307",
+   "corp_code": "01876251",
+   "corp_name": "네오사피엔스",
+   "rcept_dt": "20260909",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000307",
+   "price_band": [
+    13800,
+    15800
+   ],
+   "final_price": 10000,
+   "shares": 2000000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-09-10",
+   "sub_end": "2026-09-11",
+   "pay_date": "2026-09-15",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 2000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "500,000주 ~ 600,000주",
+     "limit": "48,000주 ~ 60,000주",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260723000660",
+     "report_nm": "[첨부추가]증권신고서(지분증권)",
+     "rcept_dt": "20260723",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723000660"
+    },
+    {
+     "rcept_no": "20260813001707",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260813",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001707"
+    },
+    {
+     "rcept_no": "20260814003426",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260814",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003426"
+    },
+    {
+     "rcept_no": "20260902000207",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260902",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902000207"
+    },
+    {
+     "rcept_no": "20260907000079",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260907",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000079"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260908000181",
+   "corp_code": "02032155",
+   "corp_name": "케이비제34호기업인수목적",
+   "rcept_dt": "20260908",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000181",
+   "price_band": null,
+   "final_price": 2000,
+   "shares": 7000000,
+   "par_value": 100,
+   "method": "일반공모",
+   "sub_start": "2026-09-10",
+   "sub_end": "2026-09-11",
+   "pay_date": "2026-09-15",
+   "underwriters": [
+    {
+     "role": "대표",
+     "name": "케이비증권",
+     "qty": 7000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "케이비증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": true,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [
+    "price_band",
+    "retail_limit"
+   ],
+   "history": [
+    {
+     "rcept_no": "20260813001038",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260813",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001038"
+    },
+    {
+     "rcept_no": "20260813001779",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260813",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001779"
+    },
+    {
+     "rcept_no": "20260824000116",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260824",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000116"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260909000276",
+   "corp_code": "02029258",
+   "corp_name": "한국제17호기업인수목적",
+   "rcept_dt": "20260909",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000276",
+   "price_band": null,
+   "final_price": 2000,
+   "shares": 7000000,
+   "par_value": 100,
+   "method": "일반공모",
+   "sub_start": "2026-09-10",
+   "sub_end": "2026-09-11",
+   "pay_date": "2026-09-15",
+   "underwriters": [
+    {
+     "role": "대표",
+     "name": "한국투자증권",
+     "qty": 7000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한국투자증권",
+     "alloc": "1,750,000주~2,100,000주",
+     "limit": "50,000주~ 70,000주",
+     "margin": "100%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": true,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [
+    "price_band"
+   ],
+   "history": [
+    {
+     "rcept_no": "20260814004091",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260814",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004091"
+    },
+    {
+     "rcept_no": "20260828000997",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260828",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000997"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260911000209",
+   "corp_code": "01867688",
+   "corp_name": "와이즈플래닛컴퍼니",
+   "rcept_dt": "20260911",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000209",
+   "price_band": [
+    10000,
+    12000
+   ],
+   "final_price": 12000,
+   "shares": 1600000,
+   "par_value": 100,
+   "method": "일반공모",
+   "sub_start": "2026-09-14",
+   "sub_end": "2026-09-15",
+   "pay_date": "2026-09-17",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 1600000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "400,000주 ~ 480,000주",
+     "limit": "39,000주 ~ 48,000주",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260729000302",
+     "report_nm": "[첨부추가]증권신고서(지분증권)",
+     "rcept_dt": "20260729",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000302"
+    },
+    {
+     "rcept_no": "20260818000130",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260818",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000130"
+    },
+    {
+     "rcept_no": "20260903000071",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260903",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000071"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260914000379",
+   "corp_code": "01722066",
+   "corp_name": "빅웨이브로보틱스",
+   "rcept_dt": "20260914",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260914000379",
+   "price_band": [
+    15000,
+    18000
+   ],
+   "final_price": 18000,
+   "shares": 1600000,
+   "par_value": 100,
+   "method": "일반공모",
+   "sub_start": "2026-09-15",
+   "sub_end": "2026-09-16",
+   "pay_date": "2026-09-18",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "유진투자증권",
+     "qty": 816000
+    },
+    {
+     "role": "공동주관회사",
+     "name": "미래에셋증권",
+     "qty": 784000
+    }
+   ],
+   "retail": [
+    {
+     "name": "유진투자증권",
+     "alloc": "204,000주 ~ 244,800주",
+     "limit": "20,000주 ~ 24,000주",
+     "margin": "50%"
+    },
+    {
+     "name": "미래에셋증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260701000455",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260701",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000455"
+    },
+    {
+     "rcept_no": "20260721001344",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260721",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260721001344"
+    },
+    {
+     "rcept_no": "20260803000319",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260803",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000319"
+    },
+    {
+     "rcept_no": "20260821000538",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260821",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000538"
+    },
+    {
+     "rcept_no": "20260903000077",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260903",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000077"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260915000237",
+   "corp_code": "01564514",
+   "corp_name": "글로벌테크놀로지",
+   "rcept_dt": "20260915",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000237",
+   "price_band": [
+    13000,
+    15000
+   ],
+   "final_price": 10000,
+   "shares": 4000000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-09-16",
+   "sub_end": "2026-09-17",
+   "pay_date": "2026-09-21",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "한국투자증권",
+     "qty": 4000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한국투자증권",
+     "alloc": "1,000,000주 ~ 1,200,000주",
+     "limit": "30,000주 ~ 40,000주",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260728000487",
+     "report_nm": "[첨부추가]증권신고서(지분증권)",
+     "rcept_dt": "20260728",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000487"
+    },
+    {
+     "rcept_no": "20260819000337",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260819",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260819000337"
+    },
+    {
+     "rcept_no": "20260908000396",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260908",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000396"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260915000085",
+   "corp_code": "00960623",
+   "corp_name": "덕산넵코어스",
+   "rcept_dt": "20260915",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000085",
+   "price_band": [
+    12400,
+    14600
+   ],
+   "final_price": 14600,
+   "shares": 3000000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-09-16",
+   "sub_end": "2026-09-17",
+   "pay_date": "2026-09-21",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 3000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "750,000 주 ~900,000 주",
+     "limit": "75,000 주 ~ 90,000 주",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260724000342",
+     "report_nm": "[첨부추가]증권신고서(지분증권)",
+     "rcept_dt": "20260724",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000342"
+    },
+    {
+     "rcept_no": "20260804000402",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260804",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000402"
+    },
+    {
+     "rcept_no": "20260814004199",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260814",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004199"
+    },
+    {
+     "rcept_no": "20260827000823",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260827",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000823"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260916000234",
+   "corp_code": "01801026",
+   "corp_name": "브릴스",
+   "rcept_dt": "20260916",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000234",
+   "price_band": [
+    16500,
+    19500
+   ],
+   "final_price": 19500,
+   "shares": 1200000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-09-17",
+   "sub_end": "2026-09-18",
+   "pay_date": "2026-09-22",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "아이비케이투자증권",
+     "qty": 1200000
+    }
+   ],
+   "retail": [
+    {
+     "name": "아이비케이투자증권",
+     "alloc": "300,000주~360,000주",
+     "limit": "(주1)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260713000275",
+     "report_nm": "[첨부추가]증권신고서(지분증권)",
+     "rcept_dt": "20260713",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000275"
+    },
+    {
+     "rcept_no": "20260804000332",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260804",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000332"
+    },
+    {
+     "rcept_no": "20260825000319",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260825",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000319"
+    },
+    {
+     "rcept_no": "20260825000476",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260825",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000476"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260904000517",
+   "corp_code": "01754737",
+   "corp_name": "엘리스그룹",
+   "rcept_dt": "20260904",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000517",
+   "price_band": [
+    70400,
+    90500
+   ],
+   "final_price": null,
+   "shares": 2222000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-09-18",
+   "sub_end": "2026-09-21",
+   "pay_date": "2026-09-23",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "미래에셋증권",
+     "qty": 1777600
+    },
+    {
+     "role": "공동주관회사",
+     "name": "삼성증권",
+     "qty": 444400
+    }
+   ],
+   "retail": [
+    {
+     "name": "미래에셋증권",
+     "alloc": "444,400주~ 533,280주",
+     "limit": "주1)",
+     "margin": "50%"
+    },
+    {
+     "name": "삼성증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260821000670",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260821",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000670"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260909000381",
+   "corp_code": "01028933",
+   "corp_name": "멜콘",
+   "rcept_dt": "20260909",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000381",
+   "price_band": [
+    10700,
+    12300
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-01",
+   "sub_end": "2026-10-02",
+   "pay_date": "2026-10-07",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 2500000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "625,000 주 ~750,000 주",
+     "limit": "60,000 주 ~ 75,000 주",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260821000368",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260821",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821000368"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260828001853",
+   "corp_code": "01705740",
+   "corp_name": "엠비디",
+   "rcept_dt": "20260828",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853",
+   "price_band": [
+    9400,
+    11500
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-06",
+   "sub_end": "2026-10-07",
+   "pay_date": "2026-10-12",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "하나증권",
+     "qty": 2000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "하나증권",
+     "alloc": "500,000주 ~ 600,000주",
+     "limit": "주)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260825000318",
+   "corp_code": "01956751",
+   "corp_name": "래블업",
+   "rcept_dt": "20260825",
+   "report_nm": "[정정제출요구]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000318",
+   "price_band": [
+    20000,
+    23000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-12",
+   "sub_end": "2026-10-13",
+   "pay_date": "2026-10-15",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "NH투자증권",
+     "qty": 2180000
+    }
+   ],
+   "retail": [
+    {
+     "name": "NH투자증권",
+     "alloc": "545,000주~ 654,000주",
+     "limit": "주1)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260907000305",
+   "corp_code": "01749559",
+   "corp_name": "엠에스바이오",
+   "rcept_dt": "20260907",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000305",
+   "price_band": [
+    6800,
+    7800
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-12",
+   "sub_end": "2026-10-13",
+   "pay_date": "2026-10-15",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "KB증권",
+     "qty": 4000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "KB증권",
+     "alloc": "1,000,000주 ~ 1,200,000주",
+     "limit": "주)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260911000314",
+   "corp_code": "00534729",
+   "corp_name": "디티에스",
+   "rcept_dt": "20260911",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000314",
+   "price_band": [
+    17000,
+    18500
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-13",
+   "sub_end": "2026-10-14",
+   "pay_date": "2026-10-16",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 2006025
+    },
+    {
+     "role": "인수",
+     "name": "유진증권",
+     "qty": 222892
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "501,507주 ~ 601,808주",
+     "limit": "48,000주 ~ 60,000주",
+     "margin": "50%"
+    },
+    {
+     "name": "유진증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260909000174",
+   "corp_code": "02032951",
+   "corp_name": "에스케이증권제14호기업인수목적",
+   "rcept_dt": "20260909",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000174",
+   "price_band": null,
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-15",
+   "sub_end": "2026-10-16",
+   "pay_date": "2026-10-20",
+   "underwriters": [
+    {
+     "role": "대표",
+     "name": "SK증권",
+     "qty": 6500000
+    }
+   ],
+   "retail": [
+    {
+     "name": "SK증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": true,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [
+    "price_band",
+    "retail_limit"
+   ],
+   "history": [
+    {
+     "rcept_no": "20260826000506",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260826",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000506"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260915000390",
+   "corp_code": "01706509",
+   "corp_name": "다비오",
+   "rcept_dt": "20260915",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000390",
+   "price_band": [
+    12300,
+    16600
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-19",
+   "sub_end": "2026-10-20",
+   "pay_date": "2026-10-22",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 1000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "250,000주 ~ 300,000주",
+     "limit": "24,000주 ~ 30,000주",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260909000378",
+   "corp_code": "01705573",
+   "corp_name": "유캐스트",
+   "rcept_dt": "20260909",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378",
+   "price_band": [
+    21000,
+    26000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-19",
+   "sub_end": "2026-10-20",
+   "pay_date": "2026-10-22",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "유진투자증권",
+     "qty": 760000
+    },
+    {
+     "role": "인수회사",
+     "name": "신영증권",
+     "qty": 40000
+    }
+   ],
+   "retail": [
+    {
+     "name": "유진투자증권",
+     "alloc": "160,000주 ~ 200,000주",
+     "limit": "16,000주 ~ 20,000주",
+     "margin": "50%"
+    },
+    {
+     "name": "신영증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260917000141",
+   "corp_code": "01540903",
+   "corp_name": "크리에이츠",
+   "rcept_dt": "20260917",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000141",
+   "price_band": [
+    15000,
+    18000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-20",
+   "sub_end": "2026-10-21",
+   "pay_date": "2026-10-23",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "삼성증권",
+     "qty": 1400000
+    }
+   ],
+   "retail": [
+    {
+     "name": "삼성증권",
+     "alloc": "350,000주 ~ 420,000주",
+     "limit": "(주1)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260904000286",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260904",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000286"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20260903000275",
+   "corp_code": "01543043",
+   "corp_name": "티앤이코리아",
+   "rcept_dt": "20260903",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000275",
+   "price_band": [
+    12600,
+    15300
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-20",
+   "sub_end": "2026-10-21",
+   "pay_date": "2026-10-23",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "신한투자증권",
+     "qty": 2400000
+    }
+   ],
+   "retail": [
+    {
+     "name": "신한투자증권",
+     "alloc": "600,000주 ~ 720,000주",
+     "limit": "주)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260917000365",
+   "corp_code": "01965157",
+   "corp_name": "한화플러스제6호기업인수목적",
+   "rcept_dt": "20260917",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000365",
+   "price_band": null,
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-20",
+   "sub_end": "2026-10-21",
+   "pay_date": "2026-10-23",
+   "underwriters": [
+    {
+     "role": "대표",
+     "name": "한화투자증권",
+     "qty": 6000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한화투자증권",
+     "alloc": "1,500,000주 ~ 1,800,000주",
+     "limit": "150,000주~180,000주",
+     "margin": "100%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": true,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [
+    "price_band"
+   ]
+  },
+  {
+   "rcept_no": "20260916000544",
+   "corp_code": "01649408",
+   "corp_name": "인텔리빅스",
+   "rcept_dt": "20260916",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000544",
+   "price_band": [
+    7600,
+    9000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-21",
+   "sub_end": "2026-10-22",
+   "pay_date": "2026-10-26",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "미래에셋증권",
+     "qty": 2500000
+    }
+   ],
+   "retail": [
+    {
+     "name": "미래에셋증권",
+     "alloc": "625,000주~ 750,000주",
+     "limit": "주1)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260917000220",
+   "corp_code": "02036869",
+   "corp_name": "아이엠기업인수목적1호",
+   "rcept_dt": "20260917",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000220",
+   "price_band": null,
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-10-26",
+   "sub_end": "2026-10-27",
+   "pay_date": "2026-10-29",
+   "underwriters": [
+    {
+     "role": "대표",
+     "name": "아이엠증권",
+     "qty": 5000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "아이엠증권",
+     "alloc": "1,250,000주~ 1,500,000주",
+     "limit": "125,000주~ 150,000주",
+     "margin": "100%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": true,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [
+    "price_band"
+   ]
+  },
+  {
+   "rcept_no": "20260908000417",
+   "corp_code": "01835829",
+   "corp_name": "바로팜",
+   "rcept_dt": "20260908",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000417",
+   "price_band": [
+    16400,
+    20200
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-02",
+   "sub_end": "2026-11-03",
+   "pay_date": "2026-11-05",
+   "underwriters": [
+    {
+     "role": "대표",
+     "name": "미래에셋증권",
+     "qty": 1780000
+    }
+   ],
+   "retail": [
+    {
+     "name": "미래에셋증권",
+     "alloc": "445,000주~ 534,000주",
+     "limit": "주1)",
+     "margin": "50%"
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  }
+ ]
+}

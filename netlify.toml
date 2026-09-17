@@ -1,0 +1,21 @@
+[build]
+  # 빌드 명령 없음 — GitHub Actions가 만들어 커밋한 site/ 를 그대로 올린다.
+  # (Netlify 빌드 시간이 거의 들지 않음)
+  publish = "site"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/ipos.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+
+[[redirects]]
+  from = "/ipo"
+  to = "/"
+  status = 301

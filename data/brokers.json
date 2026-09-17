@@ -1,0 +1,43 @@
+{
+ "_note": "증권사 고정 정보. 수수료·우대조건은 자주 바뀌지 않지만 공식 확인이 필요하므로 처음엔 null(=확인 불가)로 둔다. 값을 채우면 사이트에 바로 반영된다.",
+ "_fields": {
+  "app": "MTS 앱 이름",
+  "online_fee": "온라인 청약수수료(원). 0이면 무료",
+  "offline_fee": "오프라인 청약수수료(원)",
+  "nonface_account": "비대면 계좌개설 가능 여부",
+  "site": "공식 홈페이지",
+  "note": "우대조건 등 메모"
+ },
+ "brokers": {
+  "미래에셋증권": {"app": "미래에셋증권 M-STOCK", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://securities.miraeasset.com", "note": null},
+  "한국투자증권": {"app": "한국투자 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://securities.koreainvestment.com", "note": null},
+  "NH투자증권": {"app": "나무증권 / QV", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.nhqv.com", "note": null},
+  "삼성증권": {"app": "mPOP", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.samsungpop.com", "note": null},
+  "KB증권": {"app": "KB M-able", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.kbsec.com", "note": null},
+  "신한투자증권": {"app": "신한 SOL증권", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.shinhansec.com", "note": null},
+  "키움증권": {"app": "영웅문S#", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.kiwoom.com", "note": null},
+  "대신증권": {"app": "크레온", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.daishin.com", "note": null},
+  "하나증권": {"app": "원큐프로", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.hanaw.com", "note": null},
+  "한화투자증권": {"app": "한화스마트M", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.hanwhawm.com", "note": null},
+  "유진투자증권": {"app": "유진 챔피언", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.eugenefn.com", "note": null},
+  "신영증권": {"app": "신영증권 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.shinyoung.com", "note": null},
+  "IBK투자증권": {"app": "IBKS MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.ibks.com", "note": null},
+  "교보증권": {"app": "교보증권 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.iprovest.com", "note": null},
+  "DB증권": {"app": "DB금융투자 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.db-fi.com", "note": null},
+  "현대차증권": {"app": "현대able", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.hmsec.com", "note": null},
+  "SK증권": {"app": "주감", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.sks.co.kr", "note": null},
+  "유안타증권": {"app": "티레이더M", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.myasset.com", "note": null},
+  "BNK투자증권": {"app": "BNK투자증권 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.bnkfn.co.kr", "note": null},
+  "상상인증권": {"app": "상상인증권 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.sangsanginib.com", "note": null},
+  "케이비증권": {"app": "KB M-able", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.kbsec.com", "note": "KB증권과 동일"},
+  "아이비케이투자증권": {"app": "IBKS MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.ibks.com", "note": "IBK투자증권과 동일"},
+  "하이투자증권": {"app": "하이 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.hi-ib.com", "note": null},
+  "메리츠증권": {"app": "Super365", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.meritz.co.kr", "note": null},
+  "LS증권": {"app": "이베스트온", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.ls-sec.co.kr", "note": null},
+  "부국증권": {"app": "부국증권 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.bookook.co.kr", "note": null},
+  "한양증권": {"app": "한양증권 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.hygood.co.kr", "note": null},
+  "다올투자증권": {"app": "다올 MTS", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://www.daolsec.co.kr", "note": null},
+  "카카오페이증권": {"app": "카카오페이", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://securities.kakaopay.com", "note": null},
+  "토스증권": {"app": "토스", "online_fee": null, "offline_fee": null, "nonface_account": true, "site": "https://tossinvest.com", "note": null}
+ }
+}
