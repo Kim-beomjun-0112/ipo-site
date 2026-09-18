@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18 07:06",
+ "updated_at": "2026-09-18 18:13",
  "count": 23,
  "items": [
   {
@@ -630,21 +630,21 @@
    ]
   },
   {
-   "rcept_no": "20260828001853",
+   "rcept_no": "20260918000439",
    "corp_code": "01705740",
    "corp_name": "엠비디",
-   "rcept_dt": "20260828",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20260918",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000439",
    "price_band": [
     9400,
     11500
    ],
    "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "shares": 2000000,
+   "par_value": 500,
+   "method": "일반공모",
    "sub_start": "2026-10-06",
    "sub_end": "2026-10-07",
    "pay_date": "2026-10-12",
@@ -667,7 +667,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260828001853",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260828",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853"
+    }
+   ]
   },
   {
    "rcept_no": "20260825000318",
