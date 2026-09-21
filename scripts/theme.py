@@ -292,7 +292,9 @@ footer a{color:var(--pri);font-weight:600}
 def layout(title, desc, body, path, nav_on="", updated="", extra=""):
     depth = path.count("/")
     up = "../" * depth
-    navs = [("", "청약 캘린더"), ("brokers.html", "증권사별"),
+    # 홈 링크는 반드시 index.html 을 명시한다. 빈 문자열이면 최상위 페이지에서
+    # href="" 가 되어 '현재 페이지 다시 열기'가 되고, 홈으로 돌아갈 수 없다.
+    navs = [("index.html", "청약 캘린더"), ("brokers.html", "증권사별"),
             ("results.html", "상장 후 성적"), ("guide/", "가이드"),
             ("glossary.html", "용어사전")]
     nv = "".join(f'<a href="{up}{h}"{" class=on" if h == nav_on else ""}>{t}</a>'
@@ -313,7 +315,7 @@ def layout(title, desc, body, path, nav_on="", updated="", extra=""):
 {FONT}<style>{CSS}</style>{extra}{AD_HEAD}
 </head><body>
 <header class=hdr><div class=hdr-in>
-<a href="{up}" class=logo><span class=logo-mk>공</span>공모주 캘린더</a>
+<a href="{up}index.html" class=logo><span class=logo-mk>공</span>공모주 캘린더</a>
 <nav class=nav>{nv}</nav>
 </div></header>
 <main class=wrap>{body}</main>

@@ -323,7 +323,7 @@ def build_index(items):
         f"{SITE_NAME} — 공모주 청약 일정·증권사별 배정물량",
         "오늘 청약 가능한 공모주와 앞으로의 일정, 공모가, 주관사, 증권사별 배정물량과 "
         "최고 청약한도를 DART 공시 기준으로 매일 자동 정리합니다.",
-        body, "index.html", "", UPDATED))
+        body, "index.html", "index.html", UPDATED))
 
 
 def build_detail(r):
@@ -601,9 +601,10 @@ def main():
     build_glossary()
     build_meta(items)
 
-    adm = os.path.join(ROOT, "admin")
-    if os.path.exists(adm):
-        shutil.copytree(adm, os.path.join(OUT, "admin"))
+    for src, dst in (("admin", "admin"), ("updater", "update")):
+        p = os.path.join(ROOT, src)
+        if os.path.exists(p):
+            shutil.copytree(p, os.path.join(OUT, dst))
     shutil.copy(os.path.join(DATA, "ipos.json"), os.path.join(OUT, "ipos.json"))
 
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
