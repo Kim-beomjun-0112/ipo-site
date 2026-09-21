@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-21 08:46",
+ "updated_at": "2026-09-21 11:53",
  "count": 22,
  "items": [
   {
@@ -90,7 +90,10 @@
      "name": "한국투자증권",
      "alloc": "1,750,000주~2,100,000주",
      "limit": "50,000주~ 70,000주",
-     "margin": "100%"
+     "margin": "100%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -146,7 +149,10 @@
      "name": "대신증권",
      "alloc": "400,000주 ~ 480,000주",
      "limit": "39,000주 ~ 48,000주",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -211,7 +217,10 @@
      "name": "유진투자증권",
      "alloc": "204,000주 ~ 244,800주",
      "limit": "20,000주 ~ 24,000주",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     },
     {
      "name": "미래에셋증권",
@@ -289,7 +298,10 @@
      "name": "한국투자증권",
      "alloc": "1,000,000주 ~ 1,200,000주",
      "limit": "30,000주 ~ 40,000주",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -415,7 +427,10 @@
      "name": "아이비케이투자증권",
      "alloc": "300,000주~360,000주",
      "limit": "(주1)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "1,500원",
+     "fee_offline": null,
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -486,7 +501,10 @@
      "name": "미래에셋증권",
      "alloc": "444,400주~ 533,280주",
      "limit": "주1)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     },
     {
      "name": "삼성증권",
@@ -540,7 +558,10 @@
      "name": "대신증권",
      "alloc": "625,000 주 ~750,000 주",
      "limit": "60,000 주 ~ 75,000 주",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -588,7 +609,10 @@
      "name": "하나증권",
      "alloc": "500,000주 ~ 600,000주",
      "limit": "주)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "4,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -636,7 +660,10 @@
      "name": "NH투자증권",
      "alloc": "545,000주~ 654,000주",
      "limit": "주1)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -676,7 +703,10 @@
      "name": "KB증권",
      "alloc": "1,000,000주 ~ 1,200,000주",
      "limit": "주)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "1,500원",
+     "fee_offline": "4,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -721,7 +751,10 @@
      "name": "대신증권",
      "alloc": "501,507주 ~ 601,808주",
      "limit": "48,000주 ~ 60,000주",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
     },
     {
      "name": "유진증권",
@@ -815,7 +848,10 @@
      "name": "대신증권",
      "alloc": "250,000주 ~ 300,000주",
      "limit": "24,000주 ~ 30,000주",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -906,7 +942,10 @@
      "name": "삼성증권",
      "alloc": "350,000주 ~ 420,000주",
      "limit": "(주1)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -954,7 +993,10 @@
      "name": "신한투자증권",
      "alloc": "600,000주 ~ 720,000주",
      "limit": "주)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -1033,7 +1075,10 @@
      "name": "미래에셋증권",
      "alloc": "625,000주~ 750,000주",
      "limit": "주1)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
@@ -1112,7 +1157,10 @@
      "name": "미래에셋증권",
      "alloc": "445,000주~ 534,000주",
      "limit": "주1)",
-     "margin": "50%"
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
     }
    ],
    "demand_rate": null,
