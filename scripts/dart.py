@@ -22,6 +22,7 @@ import warnings
 from datetime import date, timedelta
 
 import requests
+import fees as feemod
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
@@ -31,6 +32,10 @@ LIST_URL = "https://opendart.fss.or.kr/api/list.json"
 DOC_URL = "https://opendart.fss.or.kr/api/document.xml"
 VIEWER = "https://dart.fss.or.kr/dsaf001/main.do?rcpNo={}"
 CACHE_DIR = os.environ.get("DART_CACHE", "")
+
+# 파싱 규칙을 고칠 때마다 올린다. 값이 바뀌면 collect.py가 캐시를 버리고
+# 전부 다시 읽는다. (안 그러면 새 코드가 기존 공시에 적용되지 않는다)
+PARSER_VERSION = 3
 
 
 # ---------------------------------------------------------------- 유틸
@@ -304,6 +309,17 @@ def parse(rcept_no, corp_name, corp_code, rcept_dt, report_nm, stock_code=""):
                     })
             if d["retail"]:
                 break
+
+    # 4-b) 증권사별 청약수수료 (등급별 표에서 일반 기준 추출)
+    names = [u["name"] for u in d["underwriters"]] + [x["name"] for x in d["retail"]]
+    names = [n for n in dict.fromkeys(names) if n]
+    fee = feemod.parse_fees(plain, names) if names else {}
+    for x in d["retail"]:
+        f = fee.get(x["name"])
+        if f:
+            x["fee_online"] = f["online"]
+            x["fee_offline"] = f["offline"]
+            x["fee_free"] = f["free"]
 
     # 5) 수요예측 경쟁률 -----------------------------------------
     mc = re.search(r"수요예측\s*경쟁률[^\d]{0,20}([\d,\.]+)\s*[:대]", plain)

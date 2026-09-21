@@ -56,7 +56,12 @@ def main():
     parsed = {}
     if os.path.exists(pc_path):
         try:
-            parsed = json.load(open(pc_path, encoding="utf-8"))
+            raw = json.load(open(pc_path, encoding="utf-8"))
+            if raw.get("_parser_version") == dart.PARSER_VERSION:
+                parsed = raw.get("items", {})
+            else:
+                print(f"      파싱 규칙이 바뀌어 캐시를 버립니다 "
+                      f"(v{raw.get('_parser_version')} -> v{dart.PARSER_VERSION})")
         except Exception:
             parsed = {}
     reused = 0
@@ -110,7 +115,8 @@ def main():
     # 3개월 창을 벗어난 공시는 캐시에서 정리
     live_ids = {i["rcept_no"] for i in items}
     parsed = {k: v for k, v in parsed.items() if k in live_ids}
-    json.dump(parsed, open(pc_path, "w", encoding="utf-8"),
+    json.dump({"_parser_version": dart.PARSER_VERSION, "items": parsed},
+              open(pc_path, "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
     print(f"      캐시 재사용 {reused}건 / 신규 {len(items)-reused-len(fails)}건")
 

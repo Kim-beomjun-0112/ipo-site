@@ -229,9 +229,23 @@ def retail_table(r):
         f'<tr><td><span style="display:inline-flex;align-items:center;gap:7px">'
         f'{avatar(canon(x["name"]))}<b>{esc(canon(x["name"]))}</b></span></td>'
         f'<td>{na(x.get("alloc"))}</td><td>{na(x.get("limit"))}</td>'
-        f'<td>{na(x.get("margin"))}</td></tr>' for x in rows)
+        f'<td>{na(x.get("margin"))}</td><td>{fee_cell(x)}</td></tr>' for x in rows)
     return ('<div class=scroll><table><thead><tr><th>증권사</th><th>일반청약자 배정물량</th>'
-            f'<th>최고 청약한도</th><th>증거금률</th></tr></thead><tbody>{body}</tbody></table></div>')
+            '<th>최고 청약한도</th><th>증거금률</th><th>청약수수료</th>'
+            f'</tr></thead><tbody>{body}</tbody></table></div>')
+
+
+def fee_cell(x):
+    on, off = x.get("fee_online"), x.get("fee_offline")
+    if not (on or off):
+        return f'<span class=na>{NA}</span>'
+    bits = []
+    if on:
+        bits.append(f'<b>온라인 {esc(on)}</b>')
+    if off:
+        bits.append(f'<span style="color:var(--sub)">영업점 {esc(off)}</span>')
+    free = ' <span class=b-fix>우대 시 면제</span>' if x.get("fee_free") else ''
+    return "<br>".join(bits) + free
 
 
 def qty_cell(q):
@@ -395,20 +409,28 @@ def build_brokers(items, binfo):
             row = next((y for y in r.get("retail", []) if canon(y["name"]) == n), {})
             idx.setdefault(n, []).append((r, row))
     names = sorted(idx, key=lambda n: (-len(idx[n]), n))
+    def latest_fee(n):
+        for r, x in sorted(idx[n], key=lambda t: t[0].get("rcept_dt") or "", reverse=True):
+            if x.get("fee_online") or x.get("fee_offline"):
+                return x
+        return {}
+
     rows = "".join(
         f'<tr><td><a href="broker/{slug(n)}.html" style="display:inline-flex;align-items:center;'
         f'gap:8px;color:var(--pri);font-weight:700">{avatar(n)}{esc(n)}</a></td>'
         f'<td>{esc((binfo.get(n) or {}).get("app") or NA)}</td>'
+        f'<td>{fee_cell(latest_fee(n))}</td>'
         f'<td><b>{len([1 for r, _ in idx[n] if status(r)[1] != "done"])}</b>건</td>'
         f'<td>{len(idx[n])}건</td></tr>' for n in names)
     body = f"""<h1 style="margin-top:26px">증권사별 공모주 청약</h1>
 <p class=lead>최근 3개월간 공모주 인수에 참여한 증권사 {len(names)}곳입니다.
 위쪽에 있을수록 청약 기회가 많다는 뜻이라, 계좌를 어디부터 열지 정할 때 참고하실 수 있습니다.</p>
 {ad('display')}
-<div class=scroll><table><thead><tr><th>증권사</th><th>MTS 앱</th>
+<div class=scroll><table><thead><tr><th>증권사</th><th>MTS 앱</th><th>청약수수료</th>
 <th>진행·예정</th><th>최근 3개월</th></tr></thead><tbody>{rows}</tbody></table></div>
-<div class=note>청약수수료와 우대조건은 증권사 정책에 따라 자주 바뀌므로 표시하지 않습니다.
-청약 전 해당 증권사 공지를 확인하세요.</div>
+<div class=note>청약수수료는 <b>가장 최근 공모의 증권신고서에 적힌 일반 등급 기준</b>입니다.
+고객 등급이 높으면 면제되거나 더 싸고, 종목·시점에 따라 달라질 수 있습니다.
+정확한 금액은 청약 전 해당 증권사 공지를 확인하세요.</div>
 <h2>계좌를 몇 개나 만들어야 할까</h2>
 <div class=card><div class=art style="font-size:14.5px">
 <p>균등배정은 청약자 수로 나누기 때문에 계좌가 많을수록 유리해 보이지만, 실제로는
@@ -437,6 +459,7 @@ def build_brokers(items, binfo):
  <div><dt>배정물량</dt><dd style="font-size:12.5px">{na(x.get('alloc'))}</dd></div>
  <div><dt>최고 청약한도</dt><dd style="font-size:12.5px">{na(x.get('limit'))}</dd></div>
  <div><dt>증거금률</dt><dd style="font-size:12.5px">{na(x.get('margin'))}</dd></div>
+ <div><dt>청약수수료</dt><dd style="font-size:12.5px">{fee_cell(x)}</dd></div>
 </dl></div>"""
         info = binfo.get(n) or {}
         live = len([1 for r, _ in lst if status(r)[1] != "done"])
