@@ -1,70 +1,7 @@
 {
- "updated_at": "2026-09-22 22:55",
- "count": 24,
+ "updated_at": "2026-09-23 08:56",
+ "count": 23,
  "items": [
-  {
-   "rcept_no": "20260911000209",
-   "corp_code": "01867688",
-   "corp_name": "와이즈플래닛컴퍼니",
-   "rcept_dt": "20260911",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000209",
-   "price_band": [
-    10000,
-    12000
-   ],
-   "final_price": 12000,
-   "shares": 1600000,
-   "par_value": 100,
-   "method": "일반공모",
-   "sub_start": "2026-09-14",
-   "sub_end": "2026-09-15",
-   "pay_date": "2026-09-17",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "대신증권",
-     "qty": 1600000
-    }
-   ],
-   "retail": [
-    {
-     "name": "대신증권",
-     "alloc": "400,000주 ~ 480,000주",
-     "limit": "39,000주 ~ 48,000주",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "3,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260729000302",
-     "report_nm": "[첨부추가]증권신고서(지분증권)",
-     "rcept_dt": "20260729",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000302"
-    },
-    {
-     "rcept_no": "20260818000130",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260818",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000130"
-    },
-    {
-     "rcept_no": "20260903000071",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260903",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000071"
-    }
-   ]
-  },
   {
    "rcept_no": "20260914000379",
    "corp_code": "01722066",
