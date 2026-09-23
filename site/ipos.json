@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-23 08:56",
+ "updated_at": "2026-09-23 23:08",
  "count": 23,
  "items": [
   {
@@ -798,13 +798,13 @@
    ]
   },
   {
-   "rcept_no": "20260903000275",
+   "rcept_no": "20260923000255",
    "corp_code": "01543043",
    "corp_name": "티앤이코리아",
-   "rcept_dt": "20260903",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20260923",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000275",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000255",
    "price_band": [
     12600,
     15300
@@ -838,7 +838,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260903000275",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260903",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000275"
+    }
+   ]
   },
   {
    "rcept_no": "20260917000365",
