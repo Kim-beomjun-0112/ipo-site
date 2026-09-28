@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-28 09:14",
- "count": 23,
+ "updated_at": "2026-09-29 02:24",
+ "count": 24,
  "items": [
   {
    "rcept_no": "20260914000379",
@@ -741,13 +741,13 @@
    "missing": []
   },
   {
-   "rcept_no": "20260917000141",
+   "rcept_no": "20260928000196",
    "corp_code": "01540903",
    "corp_name": "크리에이츠",
-   "rcept_dt": "20260917",
+   "rcept_dt": "20260928",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000141",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000196",
    "price_band": [
     15000,
     18000
@@ -788,6 +788,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260904",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260904000286"
+    },
+    {
+     "rcept_no": "20260917000141",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260917",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000141"
     }
    ]
   },
@@ -1123,6 +1129,49 @@
      "name": "미래에셋증권",
      "alloc": "445,000주~ 534,000주",
      "limit": "주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20260928000260",
+   "corp_code": "01863318",
+   "corp_name": "넥스아이",
+   "rcept_dt": "20260928",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000260",
+   "price_band": [
+    10500,
+    13000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-03",
+   "sub_end": "2026-11-04",
+   "pay_date": "2026-11-06",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "한국투자증권",
+     "qty": 5000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한국투자증권",
+     "alloc": "1,250,000주 ~ 1,500,000주",
+     "limit": "40,000주 ~ 50,000주",
      "margin": "50%",
      "fee_online": "2,000원",
      "fee_offline": "5,000원",
