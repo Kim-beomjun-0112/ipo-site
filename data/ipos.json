@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-27 23:34",
+ "updated_at": "2026-09-28 09:14",
  "count": 23,
  "items": [
   {
@@ -56,12 +56,6 @@
    "market": "코스닥",
    "missing": [],
    "history": [
-    {
-     "rcept_no": "20260701000455",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260701",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000455"
-    },
     {
      "rcept_no": "20260721001344",
      "report_nm": "[기재정정]증권신고서(지분증권)",
