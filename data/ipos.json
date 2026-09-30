@@ -1,73 +1,7 @@
 {
- "updated_at": "2026-09-30 00:29",
- "count": 23,
+ "updated_at": "2026-09-30 09:57",
+ "count": 22,
  "items": [
-  {
-   "rcept_no": "20260915000085",
-   "corp_code": "00960623",
-   "corp_name": "덕산넵코어스",
-   "rcept_dt": "20260915",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000085",
-   "price_band": [
-    12400,
-    14600
-   ],
-   "final_price": 14600,
-   "shares": 3000000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-09-16",
-   "sub_end": "2026-09-17",
-   "pay_date": "2026-09-21",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "대신증권",
-     "qty": 3000000
-    }
-   ],
-   "retail": [
-    {
-     "name": "대신증권",
-     "alloc": "750,000 주 ~900,000 주",
-     "limit": "75,000 주 ~ 90,000 주",
-     "margin": "50%"
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260724000342",
-     "report_nm": "[첨부추가]증권신고서(지분증권)",
-     "rcept_dt": "20260724",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000342"
-    },
-    {
-     "rcept_no": "20260804000402",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260804",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000402"
-    },
-    {
-     "rcept_no": "20260814004199",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260814",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004199"
-    },
-    {
-     "rcept_no": "20260827000823",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260827",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000823"
-    }
-   ]
-  },
   {
    "rcept_no": "20260916000234",
    "corp_code": "01801026",
