@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-01 09:59",
- "count": 21,
+ "updated_at": "2026-10-02 01:05",
+ "count": 22,
  "items": [
   {
    "rcept_no": "20260929000191",
@@ -284,13 +284,13 @@
    ]
   },
   {
-   "rcept_no": "20260911000314",
+   "rcept_no": "20261001000078",
    "corp_code": "00534729",
    "corp_name": "디티에스",
-   "rcept_dt": "20260911",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261001",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000314",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000078",
    "price_band": [
     17000,
     18500
@@ -335,7 +335,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260911000314",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260911",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000314"
+    }
+   ]
   },
   {
    "rcept_no": "20260909000174",
@@ -838,13 +846,56 @@
    "missing": []
   },
   {
-   "rcept_no": "20260908000417",
-   "corp_code": "01835829",
-   "corp_name": "바로팜",
-   "rcept_dt": "20260908",
+   "rcept_no": "20261001000579",
+   "corp_code": "00784184",
+   "corp_name": "동원파츠",
+   "rcept_dt": "20261001",
    "report_nm": "증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000417",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000579",
+   "price_band": [
+    23000,
+    26500
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-02",
+   "sub_end": "2026-11-03",
+   "pay_date": "2026-11-05",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "삼성증권",
+     "qty": 2030000
+    }
+   ],
+   "retail": [
+    {
+     "name": "삼성증권",
+     "alloc": "507,500주 ~ 609,000주",
+     "limit": "(주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261001000582",
+   "corp_code": "01835829",
+   "corp_name": "바로팜",
+   "rcept_dt": "20261001",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000582",
    "price_band": [
     16400,
     20200
@@ -878,7 +929,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260908000417",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260908",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000417"
+    }
+   ]
   },
   {
    "rcept_no": "20260928000260",
