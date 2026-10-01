@@ -1,76 +1,7 @@
 {
- "updated_at": "2026-10-01 00:41",
- "count": 22,
+ "updated_at": "2026-10-01 09:59",
+ "count": 21,
  "items": [
-  {
-   "rcept_no": "20260916000234",
-   "corp_code": "01801026",
-   "corp_name": "브릴스",
-   "rcept_dt": "20260916",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000234",
-   "price_band": [
-    16500,
-    19500
-   ],
-   "final_price": 19500,
-   "shares": 1200000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-09-17",
-   "sub_end": "2026-09-18",
-   "pay_date": "2026-09-22",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "아이비케이투자증권",
-     "qty": 1200000
-    }
-   ],
-   "retail": [
-    {
-     "name": "아이비케이투자증권",
-     "alloc": "300,000주~360,000주",
-     "limit": "(주1)",
-     "margin": "50%",
-     "fee_online": "1,500원",
-     "fee_offline": null,
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260713000275",
-     "report_nm": "[첨부추가]증권신고서(지분증권)",
-     "rcept_dt": "20260713",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000275"
-    },
-    {
-     "rcept_no": "20260804000332",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260804",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000332"
-    },
-    {
-     "rcept_no": "20260825000319",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260825",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000319"
-    },
-    {
-     "rcept_no": "20260825000476",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260825",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000476"
-    }
-   ]
-  },
   {
    "rcept_no": "20260929000191",
    "corp_code": "01028933",
