@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-02 10:14",
- "count": 22,
+ "updated_at": "2026-10-03 00:27",
+ "count": 23,
  "items": [
   {
    "rcept_no": "20260929000191",
@@ -1055,6 +1055,49 @@
     {
      "name": "아이비케이투자증권",
      "alloc": "1,100,000주~1,320,000주",
+     "limit": "(주1)",
+     "margin": "50%",
+     "fee_online": "1,500원",
+     "fee_offline": null,
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261002000390",
+   "corp_code": "01880139",
+   "corp_name": "케이엠에프",
+   "rcept_dt": "20261002",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000390",
+   "price_band": [
+    15000,
+    17800
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-24",
+   "sub_end": "2026-11-25",
+   "pay_date": "2026-11-27",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "아이비케이투자증권",
+     "qty": 2000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "아이비케이투자증권",
+     "alloc": "500,000주~600,000주",
      "limit": "(주1)",
      "margin": "50%",
      "fee_online": "1,500원",
