@@ -606,6 +606,8 @@ def main():
         if os.path.exists(p):
             shutil.copytree(p, os.path.join(OUT, dst))
     shutil.copy(os.path.join(DATA, "ipos.json"), os.path.join(OUT, "ipos.json"))
+    for f in os.listdir(os.path.join(ROOT, "assets")):
+        shutil.copy(os.path.join(ROOT, "assets", f), os.path.join(OUT, f))
 
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
     print(f"빌드 완료 — {n}개 파일 / 종목 {len(items)}건 / 가이드 {len(GUIDES)}편 "

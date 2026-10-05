@@ -310,7 +310,9 @@ def layout(title, desc, body, path, nav_on="", updated="", extra=""):
 <meta property=og:description content="{desc}">
 <meta property=og:type content=website>
 <meta property=og:url content="{SITE_URL}/{path}">
-<meta name=twitter:card content=summary>
+<meta property=og:image content="{SITE_URL}/og.png"><meta property=og:image:width content=1200><meta property=og:image:height content=630>
+<meta name=twitter:card content=summary_large_image><meta name=twitter:image content="{SITE_URL}/og.png">
+<link rel=icon href="/favicon.ico" sizes=any><link rel=icon type="image/svg+xml" href="/favicon.svg"><link rel=apple-touch-icon href="/apple-touch-icon.png">
 <link rel=icon href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232b5ce6'/><path d='M22 66l18-20 14 12 24-28' stroke='white' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 {FONT}<style>{CSS}</style>{extra}{AD_HEAD}
 </head><body>
