@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-06 11:01",
+ "updated_at": "2026-10-07 00:44",
  "count": 23,
  "items": [
   {
@@ -108,18 +108,18 @@
    ]
   },
   {
-   "rcept_no": "20260929000656",
+   "rcept_no": "20261006000447",
    "corp_code": "01754737",
    "corp_name": "엘리스그룹",
-   "rcept_dt": "20260929",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261006",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000656",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000447",
    "price_band": [
     70400,
     90500
    ],
-   "final_price": null,
+   "final_price": 90500,
    "shares": 2222000,
    "par_value": 500,
    "method": "일반공모",
@@ -143,10 +143,7 @@
      "name": "미래에셋증권",
      "alloc": "444,400주~ 533,280주",
      "limit": "주1)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "5,000원",
-     "fee_free": true
+     "margin": "50%"
     },
     {
      "name": "삼성증권",
@@ -178,57 +175,12 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20260921",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000386"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20260921000390",
-   "corp_code": "01956751",
-   "corp_name": "래블업",
-   "rcept_dt": "20260921",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000390",
-   "price_band": [
-    20000,
-    23000
-   ],
-   "final_price": null,
-   "shares": 2180000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-10-12",
-   "sub_end": "2026-10-13",
-   "pay_date": "2026-10-15",
-   "underwriters": [
+    },
     {
-     "role": "대표주관회사",
-     "name": "NH투자증권",
-     "qty": 2180000
-    }
-   ],
-   "retail": [
-    {
-     "name": "NH투자증권",
-     "alloc": "545,000주~ 654,000주",
-     "limit": "주1)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "5,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260825000318",
-     "report_nm": "[정정제출요구]증권신고서(지분증권)",
-     "rcept_dt": "20260825",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000318"
+     "rcept_no": "20260929000656",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260929",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000656"
     }
    ]
   },
@@ -596,13 +548,13 @@
    ]
   },
   {
-   "rcept_no": "20260917000365",
+   "rcept_no": "20261006000137",
    "corp_code": "01965157",
    "corp_name": "한화플러스제6호기업인수목적",
-   "rcept_dt": "20260917",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261006",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000365",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000137",
    "price_band": null,
    "final_price": null,
    "shares": null,
@@ -632,6 +584,14 @@
    "market": "코스닥",
    "missing": [
     "price_band"
+   ],
+   "history": [
+    {
+     "rcept_no": "20260917000365",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260917",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000365"
+    }
    ]
   },
   {
@@ -676,6 +636,63 @@
    "is_rights": false,
    "market": "코스닥",
    "missing": []
+  },
+  {
+   "rcept_no": "20261006000421",
+   "corp_code": "01956751",
+   "corp_name": "래블업",
+   "rcept_dt": "20261006",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000421",
+   "price_band": [
+    19000,
+    22000
+   ],
+   "final_price": null,
+   "shares": 2180000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-10-22",
+   "sub_end": "2026-10-23",
+   "pay_date": "2026-10-27",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "NH투자증권",
+     "qty": 2180000
+    }
+   ],
+   "retail": [
+    {
+     "name": "NH투자증권",
+     "alloc": "545,000주~ 654,000주",
+     "limit": "주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260825000318",
+     "report_nm": "[정정제출요구]증권신고서(지분증권)",
+     "rcept_dt": "20260825",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000318"
+    },
+    {
+     "rcept_no": "20260921000390",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260921",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000390"
+    }
+   ]
   },
   {
    "rcept_no": "20260921000332",
