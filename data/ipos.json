@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-07 10:10",
- "count": 23,
+ "updated_at": "2026-10-08 01:09",
+ "count": 24,
  "items": [
   {
    "rcept_no": "20260929000191",
@@ -185,21 +185,21 @@
    ]
   },
   {
-   "rcept_no": "20260929000496",
+   "rcept_no": "20261007000327",
    "corp_code": "01749559",
    "corp_name": "엠에스바이오",
-   "rcept_dt": "20260929",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261007",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000496",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000327",
    "price_band": [
     6800,
     7800
    ],
-   "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "final_price": 7800,
+   "shares": 4000000,
+   "par_value": 100,
+   "method": "일반공모",
    "sub_start": "2026-10-12",
    "sub_end": "2026-10-13",
    "pay_date": "2026-10-15",
@@ -215,10 +215,7 @@
      "name": "KB증권",
      "alloc": "1,000,000주 ~ 1,200,000주",
      "limit": "주)",
-     "margin": "50%",
-     "fee_online": "1,500원",
-     "fee_offline": "4,000원",
-     "fee_free": true
+     "margin": "50%"
     }
    ],
    "demand_rate": null,
@@ -232,6 +229,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260907",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907000305"
+    },
+    {
+     "rcept_no": "20260929000496",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260929",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000496"
     }
    ]
   },
@@ -548,13 +551,13 @@
    ]
   },
   {
-   "rcept_no": "20261006000137",
+   "rcept_no": "20261007000249",
    "corp_code": "01965157",
    "corp_name": "한화플러스제6호기업인수목적",
-   "rcept_dt": "20261006",
+   "rcept_dt": "20261007",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000137",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000249",
    "price_band": null,
    "final_price": null,
    "shares": null,
@@ -591,6 +594,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260917",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000365"
+    },
+    {
+     "rcept_no": "20261006000137",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261006",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000137"
     }
    ]
   },
@@ -987,6 +996,49 @@
      "name": "한국투자증권",
      "alloc": "1,250,000주 ~ 1,500,000주",
      "limit": "40,000주 ~ 50,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261007000505",
+   "corp_code": "01950720",
+   "corp_name": "제논",
+   "rcept_dt": "20261007",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000505",
+   "price_band": [
+    9700,
+    12200
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-04",
+   "sub_end": "2026-11-05",
+   "pay_date": "2026-11-09",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "삼성증권",
+     "qty": 2200000
+    }
+   ],
+   "retail": [
+    {
+     "name": "삼성증권",
+     "alloc": "550,000주 ~ 660,000주",
+     "limit": "주1)",
      "margin": "50%",
      "fee_online": "2,000원",
      "fee_offline": "5,000원",
