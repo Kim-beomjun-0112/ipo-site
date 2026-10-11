@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-11 00:05",
- "count": 24,
+ "updated_at": "2026-10-12 00:25",
+ "count": 26,
  "items": [
   {
    "rcept_no": "20260929000191",
@@ -349,21 +349,21 @@
    ]
   },
   {
-   "rcept_no": "20260915000390",
+   "rcept_no": "20261008000705",
    "corp_code": "01706509",
    "corp_name": "다비오",
-   "rcept_dt": "20260915",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261008",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000390",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705",
    "price_band": [
     12300,
     16600
    ],
    "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "shares": 1000000,
+   "par_value": 100,
+   "method": "일반공모",
    "sub_start": "2026-10-19",
    "sub_end": "2026-10-20",
    "pay_date": "2026-10-22",
@@ -389,7 +389,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260915000390",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260915",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000390"
+    }
+   ]
   },
   {
    "rcept_no": "20260909000378",
@@ -604,13 +612,13 @@
    ]
   },
   {
-   "rcept_no": "20260916000544",
+   "rcept_no": "20261008000310",
    "corp_code": "01649408",
    "corp_name": "인텔리빅스",
-   "rcept_dt": "20260916",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261008",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000544",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000310",
    "price_band": [
     7600,
     9000
@@ -644,7 +652,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260916000544",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260916",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000544"
+    }
+   ]
   },
   {
    "rcept_no": "20261006000421",
@@ -704,13 +720,13 @@
    ]
   },
   {
-   "rcept_no": "20260921000332",
+   "rcept_no": "20261008000623",
    "corp_code": "00579342",
    "corp_name": "영광",
-   "rcept_dt": "20260921",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261008",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000332",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000623",
    "price_band": [
     14000,
     17000
@@ -744,7 +760,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260921000332",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260921",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000332"
+    }
+   ]
   },
   {
    "rcept_no": "20260921000211",
@@ -790,13 +814,13 @@
    "missing": []
   },
   {
-   "rcept_no": "20260917000220",
+   "rcept_no": "20261008000225",
    "corp_code": "02036869",
    "corp_name": "아이엠기업인수목적1호",
-   "rcept_dt": "20260917",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261008",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000220",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000225",
    "price_band": null,
    "final_price": null,
    "shares": null,
@@ -826,6 +850,20 @@
    "market": "코스닥",
    "missing": [
     "price_band"
+   ],
+   "history": [
+    {
+     "rcept_no": "20260917000220",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260917",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000220"
+    },
+    {
+     "rcept_no": "20261008000158",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261008",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000158"
+    }
    ]
   },
   {
@@ -1009,6 +1047,49 @@
    "missing": []
   },
   {
+   "rcept_no": "20261008000649",
+   "corp_code": "00960234",
+   "corp_name": "영광와이케이엠씨",
+   "rcept_dt": "20261008",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000649",
+   "price_band": [
+    9400,
+    11000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-04",
+   "sub_end": "2026-11-05",
+   "pay_date": "2026-11-09",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 2300000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "575,000주 ~ 690,000주",
+     "limit": "57,000주 ~ 69,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
    "rcept_no": "20261007000505",
    "corp_code": "01950720",
    "corp_name": "제논",
@@ -1128,6 +1209,49 @@
      "margin": "50%",
      "fee_online": "1,500원",
      "fee_offline": null,
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261008000660",
+   "corp_code": "01795859",
+   "corp_name": "엔키화이트햇",
+   "rcept_dt": "20261008",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000660",
+   "price_band": [
+    13000,
+    16500
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-12",
+   "sub_end": "2026-11-13",
+   "pay_date": "2026-11-17",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "신영증권",
+     "qty": 1700000
+    }
+   ],
+   "retail": [
+    {
+     "name": "신영증권",
+     "alloc": "425,000주 ~ 510,000주",
+     "limit": "주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
      "fee_free": true
     }
    ],
