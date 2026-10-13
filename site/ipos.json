@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-13 11:48",
+ "updated_at": "2026-10-14 01:46",
  "count": 28,
  "items": [
   {
@@ -777,13 +777,13 @@
    ]
   },
   {
-   "rcept_no": "20260921000211",
+   "rcept_no": "20261013000268",
    "corp_code": "01378005",
    "corp_name": "이에스티",
-   "rcept_dt": "20260921",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261013",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000211",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000268",
    "price_band": [
     10600,
     12400
@@ -817,7 +817,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260921000211",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260921",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000211"
+    }
+   ]
   },
   {
    "rcept_no": "20261008000225",
