@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14 09:48",
+ "updated_at": "2026-10-14 23:23",
  "count": 28,
  "items": [
   {
@@ -307,18 +307,18 @@
    ]
   },
   {
-   "rcept_no": "20260909000174",
+   "rcept_no": "20261014000196",
    "corp_code": "02032951",
    "corp_name": "에스케이증권제14호기업인수목적",
-   "rcept_dt": "20260909",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261014",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000174",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000196",
    "price_band": null,
-   "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "final_price": 2000,
+   "shares": 6500000,
+   "par_value": 100,
+   "method": "일반공모",
    "sub_start": "2026-10-15",
    "sub_end": "2026-10-16",
    "pay_date": "2026-10-20",
@@ -351,6 +351,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260826",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000506"
+    },
+    {
+     "rcept_no": "20260909000174",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260909",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000174"
     }
    ]
   },
@@ -669,13 +675,13 @@
    ]
   },
   {
-   "rcept_no": "20261006000421",
+   "rcept_no": "20261014000436",
    "corp_code": "01956751",
    "corp_name": "래블업",
-   "rcept_dt": "20261006",
+   "rcept_dt": "20261014",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000421",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000436",
    "price_band": [
     19000,
     22000
@@ -722,6 +728,12 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20260921",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000390"
+    },
+    {
+     "rcept_no": "20261006000421",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261006",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000421"
     }
    ]
   },
