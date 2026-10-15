@@ -1,58 +1,7 @@
 {
- "updated_at": "2026-10-15 09:14",
+ "updated_at": "2026-10-15 23:03",
  "count": 27,
  "items": [
-  {
-   "rcept_no": "20260918000439",
-   "corp_code": "01705740",
-   "corp_name": "엠비디",
-   "rcept_dt": "20260918",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000439",
-   "price_band": [
-    9400,
-    11500
-   ],
-   "final_price": null,
-   "shares": 2000000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-10-06",
-   "sub_end": "2026-10-07",
-   "pay_date": "2026-10-12",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "하나증권",
-     "qty": 2000000
-    }
-   ],
-   "retail": [
-    {
-     "name": "하나증권",
-     "alloc": "500,000주 ~ 600,000주",
-     "limit": "주)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "4,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260828001853",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260828",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853"
-    }
-   ]
-  },
   {
    "rcept_no": "20261006000447",
    "corp_code": "01754737",
@@ -890,6 +839,63 @@
    ]
   },
   {
+   "rcept_no": "20261015000329",
+   "corp_code": "01705740",
+   "corp_name": "엠비디",
+   "rcept_dt": "20261015",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000329",
+   "price_band": [
+    9600,
+    11700
+   ],
+   "final_price": null,
+   "shares": 2000000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-10-28",
+   "sub_end": "2026-10-29",
+   "pay_date": "2026-11-02",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "하나증권",
+     "qty": 2000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "하나증권",
+     "alloc": "500,000주 ~ 600,000주",
+     "limit": "주)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "4,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260828001853",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260828",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853"
+    },
+    {
+     "rcept_no": "20260918000439",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260918",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000439"
+    }
+   ]
+  },
+  {
    "rcept_no": "20261001000579",
    "corp_code": "00784184",
    "corp_name": "동원파츠",
@@ -933,13 +939,13 @@
    "missing": []
   },
   {
-   "rcept_no": "20261001000582",
+   "rcept_no": "20261015000345",
    "corp_code": "01835829",
    "corp_name": "바로팜",
-   "rcept_dt": "20261001",
+   "rcept_dt": "20261015",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000582",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000345",
    "price_band": [
     16400,
     20200
@@ -980,6 +986,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260908",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908000417"
+    },
+    {
+     "rcept_no": "20261001000582",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261001",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000582"
     }
    ]
   },
