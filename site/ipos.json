@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-16 09:00",
- "count": 27,
+ "updated_at": "2026-10-16 22:49",
+ "count": 29,
  "items": [
   {
    "rcept_no": "20261006000447",
@@ -415,21 +415,21 @@
    ]
   },
   {
-   "rcept_no": "20260923000255",
+   "rcept_no": "20261016000158",
    "corp_code": "01543043",
    "corp_name": "티앤이코리아",
-   "rcept_dt": "20260923",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261016",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000255",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158",
    "price_band": [
     12600,
     15300
    ],
-   "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "final_price": 15300,
+   "shares": 2400000,
+   "par_value": 500,
+   "method": "일반공모",
    "sub_start": "2026-10-20",
    "sub_end": "2026-10-21",
    "pay_date": "2026-10-23",
@@ -445,10 +445,7 @@
      "name": "신한투자증권",
      "alloc": "600,000주 ~ 720,000주",
      "limit": "주)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "5,000원",
-     "fee_free": true
+     "margin": "50%"
     }
    ],
    "demand_rate": null,
@@ -462,6 +459,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260903",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000275"
+    },
+    {
+     "rcept_no": "20260923000255",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260923",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000255"
     }
    ]
   },
@@ -996,13 +999,13 @@
    ]
   },
   {
-   "rcept_no": "20260928000260",
+   "rcept_no": "20261016000268",
    "corp_code": "01863318",
    "corp_name": "넥스아이",
-   "rcept_dt": "20260928",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261016",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000260",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000268",
    "price_band": [
     10500,
     13000
@@ -1036,7 +1039,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260928000260",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260928",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000260"
+    }
+   ]
   },
   {
    "rcept_no": "20261008000649",
@@ -1168,13 +1179,13 @@
    "missing": []
   },
   {
-   "rcept_no": "20260921000405",
+   "rcept_no": "20261016000159",
    "corp_code": "01025617",
    "corp_name": "하나에어로다이내믹스",
-   "rcept_dt": "20260921",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261016",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000405",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000159",
    "price_band": [
     4700,
     5700
@@ -1201,6 +1212,57 @@
      "margin": "50%",
      "fee_online": "1,500원",
      "fee_offline": null,
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260921000405",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260921",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000405"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20261016000412",
+   "corp_code": "00618173",
+   "corp_name": "씨앤엠",
+   "rcept_dt": "20261016",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412",
+   "price_band": [
+    10000,
+    13000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-12",
+   "sub_end": "2026-11-13",
+   "pay_date": "2026-11-17",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "한국투자증권",
+     "qty": 2950000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한국투자증권",
+     "alloc": "737,500주 ~ 885,000주",
+     "limit": "24,000주 ~ 28,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
      "fee_free": true
     }
    ],
@@ -1245,6 +1307,60 @@
      "fee_online": "2,000원",
      "fee_offline": "5,000원",
      "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261016000426",
+   "corp_code": "01403198",
+   "corp_name": "제이앤티지",
+   "rcept_dt": "20261016",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000426",
+   "price_band": [
+    26400,
+    31900
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-12",
+   "sub_end": "2026-11-13",
+   "pay_date": "2026-11-17",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 3225000
+    },
+    {
+     "role": "공동주관회사",
+     "name": "NH투자증권",
+     "qty": 1075000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "806,250 주 ~ 967,500 주",
+     "limit": "주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
+    },
+    {
+     "name": "NH투자증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
     }
    ],
    "demand_rate": null,
