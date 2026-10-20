@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-20 09:52",
- "count": 30,
+ "updated_at": "2026-10-20 23:09",
+ "count": 31,
  "items": [
   {
    "rcept_no": "20261007000327",
@@ -454,21 +454,21 @@
    ]
   },
   {
-   "rcept_no": "20261008000310",
+   "rcept_no": "20261020000360",
    "corp_code": "01649408",
    "corp_name": "인텔리빅스",
-   "rcept_dt": "20261008",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261020",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000310",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000360",
    "price_band": [
     7600,
     9000
    ],
-   "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "final_price": 9000,
+   "shares": 2500000,
+   "par_value": 100,
+   "method": "일반공모",
    "sub_start": "2026-10-21",
    "sub_end": "2026-10-22",
    "pay_date": "2026-10-26",
@@ -484,10 +484,7 @@
      "name": "미래에셋증권",
      "alloc": "625,000주~ 750,000주",
      "limit": "주1)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "5,000원",
-     "fee_free": true
+     "margin": "50%"
     }
    ],
    "demand_rate": null,
@@ -501,6 +498,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260916",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916000544"
+    },
+    {
+     "rcept_no": "20261008000310",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261008",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000310"
     }
    ]
   },
@@ -619,13 +622,13 @@
    ]
   },
   {
-   "rcept_no": "20261013000268",
+   "rcept_no": "20261020000144",
    "corp_code": "01378005",
    "corp_name": "이에스티",
-   "rcept_dt": "20261013",
+   "rcept_dt": "20261020",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000268",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000144",
    "price_band": [
     10600,
     12400
@@ -666,6 +669,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260921",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000211"
+    },
+    {
+     "rcept_no": "20261013000268",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261013",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000268"
     }
    ]
   },
@@ -1454,6 +1463,49 @@
      "margin": "50%",
      "fee_online": "1,500원",
      "fee_offline": null,
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261020000375",
+   "corp_code": "01366675",
+   "corp_name": "에이엔에이치스트럭쳐",
+   "rcept_dt": "20261020",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375",
+   "price_band": [
+    11200,
+    13600
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-11-27",
+   "sub_end": "2026-11-30",
+   "pay_date": "2026-12-02",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "NH투자증권",
+     "qty": 2100000
+    }
+   ],
+   "retail": [
+    {
+     "name": "NH투자증권",
+     "alloc": "525,000주~ 630,000주",
+     "limit": "주)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
      "fee_free": true
     }
    ],
