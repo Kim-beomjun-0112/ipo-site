@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-22 09:21",
- "count": 31,
+ "updated_at": "2026-10-22 23:25",
+ "count": 32,
  "items": [
   {
    "rcept_no": "20261012000308",
@@ -647,15 +647,15 @@
    ]
   },
   {
-   "rcept_no": "20261008000225",
+   "rcept_no": "20261022000373",
    "corp_code": "02036869",
    "corp_name": "아이엠기업인수목적1호",
-   "rcept_dt": "20261008",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261022",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000225",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000373",
    "price_band": null,
-   "final_price": null,
+   "final_price": 2000,
    "shares": null,
    "par_value": null,
    "method": null,
@@ -696,6 +696,12 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20261008",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000158"
+    },
+    {
+     "rcept_no": "20261008000225",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261008",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000225"
     }
    ]
   },
@@ -1526,6 +1532,60 @@
      "fee_online": "2,000원",
      "fee_offline": "5,000원",
      "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261022000478",
+   "corp_code": "01860700",
+   "corp_name": "인터엑스",
+   "rcept_dt": "20261022",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478",
+   "price_band": [
+    10000,
+    13000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-09",
+   "sub_end": "2026-12-10",
+   "pay_date": "2026-12-14",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "한국투자증권",
+     "qty": 2700000
+    },
+    {
+     "role": "인수회사",
+     "name": "비엔케이투자증권",
+     "qty": 300000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한국투자증권",
+     "alloc": "675,000주 ~ 810,000주",
+     "limit": "22,000주 ~ 26,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    },
+    {
+     "name": "비엔케이투자증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
     }
    ],
    "demand_rate": null,
