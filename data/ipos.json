@@ -1,75 +1,7 @@
 {
- "updated_at": "2026-10-22 23:25",
- "count": 32,
+ "updated_at": "2026-10-23 09:20",
+ "count": 31,
  "items": [
-  {
-   "rcept_no": "20261012000308",
-   "corp_code": "00534729",
-   "corp_name": "디티에스",
-   "rcept_dt": "20261012",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000308",
-   "price_band": [
-    17000,
-    18500
-   ],
-   "final_price": 18500,
-   "shares": 2228917,
-   "par_value": 5000,
-   "method": "일반공모",
-   "sub_start": "2026-10-13",
-   "sub_end": "2026-10-14",
-   "pay_date": "2026-10-16",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "대신증권",
-     "qty": 2006025
-    },
-    {
-     "role": "인수",
-     "name": "유진증권",
-     "qty": 222892
-    }
-   ],
-   "retail": [
-    {
-     "name": "대신증권",
-     "alloc": "501,507주 ~ 601,808주",
-     "limit": "48,000주 ~ 60,000주",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "3,000원",
-     "fee_free": true
-    },
-    {
-     "name": "유진증권",
-     "alloc": null,
-     "limit": null,
-     "margin": null
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260911000314",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260911",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000314"
-    },
-    {
-     "rcept_no": "20261001000078",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261001",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000078"
-    }
-   ]
-  },
   {
    "rcept_no": "20261014000196",
    "corp_code": "02032951",
