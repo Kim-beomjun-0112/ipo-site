@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-26 08:42",
- "count": 31,
+ "updated_at": "2026-10-27 00:55",
+ "count": 32,
  "items": [
   {
    "rcept_no": "20261014000196",
@@ -948,13 +948,13 @@
    "missing": []
   },
   {
-   "rcept_no": "20261023000486",
+   "rcept_no": "20261026000001",
    "corp_code": "01950720",
    "corp_name": "제논",
-   "rcept_dt": "20261023",
+   "rcept_dt": "20261026",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000486",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000001",
    "price_band": [
     9700,
     12200
@@ -995,6 +995,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261007",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000505"
+    },
+    {
+     "rcept_no": "20261023000486",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261023",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000486"
     }
    ]
   },
@@ -1444,6 +1450,48 @@
    "is_rights": false,
    "market": "코스닥",
    "missing": []
+  },
+  {
+   "rcept_no": "20261026000285",
+   "corp_code": "02040710",
+   "corp_name": "우리투자제1호기업인수목적",
+   "rcept_dt": "20261026",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000285",
+   "price_band": null,
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-02",
+   "sub_end": "2026-12-03",
+   "pay_date": "2026-12-07",
+   "underwriters": [
+    {
+     "role": "대표",
+     "name": "우리투자증권",
+     "qty": 6500000
+    }
+   ],
+   "retail": [
+    {
+     "name": "우리투자증권",
+     "alloc": "1,625,000주~1,950,000주",
+     "limit": "80,000주~ 90,000주",
+     "margin": "100%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": true,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [
+    "price_band"
+   ]
   },
   {
    "rcept_no": "20261021000153",
