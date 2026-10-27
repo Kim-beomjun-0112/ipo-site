@@ -1,61 +1,7 @@
 {
- "updated_at": "2026-10-27 00:55",
- "count": 32,
+ "updated_at": "2026-10-27 10:02",
+ "count": 31,
  "items": [
-  {
-   "rcept_no": "20261014000196",
-   "corp_code": "02032951",
-   "corp_name": "에스케이증권제14호기업인수목적",
-   "rcept_dt": "20261014",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000196",
-   "price_band": null,
-   "final_price": 2000,
-   "shares": 6500000,
-   "par_value": 100,
-   "method": "일반공모",
-   "sub_start": "2026-10-15",
-   "sub_end": "2026-10-16",
-   "pay_date": "2026-10-20",
-   "underwriters": [
-    {
-     "role": "대표",
-     "name": "SK증권",
-     "qty": 6500000
-    }
-   ],
-   "retail": [
-    {
-     "name": "SK증권",
-     "alloc": null,
-     "limit": null,
-     "margin": null
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": true,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [
-    "price_band",
-    "retail_limit"
-   ],
-   "history": [
-    {
-     "rcept_no": "20260826000506",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260826",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000506"
-    },
-    {
-     "rcept_no": "20260909000174",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260909",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000174"
-    }
-   ]
-  },
   {
    "rcept_no": "20261008000705",
    "corp_code": "01706509",
