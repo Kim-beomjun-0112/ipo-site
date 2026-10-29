@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-29 00:47",
- "count": 34,
+ "updated_at": "2026-10-29 10:28",
+ "count": 33,
  "items": [
   {
    "rcept_no": "20261008000705",
@@ -169,60 +169,6 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20260928",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000196"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261016000158",
-   "corp_code": "01543043",
-   "corp_name": "티앤이코리아",
-   "rcept_dt": "20261016",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158",
-   "price_band": [
-    12600,
-    15300
-   ],
-   "final_price": 15300,
-   "shares": 2400000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-10-20",
-   "sub_end": "2026-10-21",
-   "pay_date": "2026-10-23",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "신한투자증권",
-     "qty": 2400000
-    }
-   ],
-   "retail": [
-    {
-     "name": "신한투자증권",
-     "alloc": "600,000주 ~ 720,000주",
-     "limit": "주)",
-     "margin": "50%"
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260903000275",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260903",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000275"
-    },
-    {
-     "rcept_no": "20260923000255",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260923",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000255"
     }
    ]
   },
