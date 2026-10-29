@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29 10:28",
+ "updated_at": "2026-10-30 00:53",
  "count": 33,
  "items": [
   {
@@ -897,21 +897,21 @@
    ]
   },
   {
-   "rcept_no": "20261021000210",
+   "rcept_no": "20261029000504",
    "corp_code": "01658035",
    "corp_name": "옵토닉스",
-   "rcept_dt": "20261021",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261029",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000210",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000504",
    "price_band": [
     10000,
     12000
    ],
-   "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "final_price": 12000,
+   "shares": 2200000,
+   "par_value": 100,
+   "method": "일반공모",
    "sub_start": "2026-11-05",
    "sub_end": "2026-11-06",
    "pay_date": "2026-11-10",
@@ -944,6 +944,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260929",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000347"
+    },
+    {
+     "rcept_no": "20261021000210",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261021",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000210"
     }
    ]
   },
