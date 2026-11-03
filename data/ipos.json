@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03 12:16",
+ "updated_at": "2026-11-04 01:51",
  "count": 28,
  "items": [
   {
@@ -409,21 +409,21 @@
    ]
   },
   {
-   "rcept_no": "20261030000616",
+   "rcept_no": "20261103000312",
    "corp_code": "00960234",
    "corp_name": "영광와이케이엠씨",
-   "rcept_dt": "20261030",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261103",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000312",
    "price_band": [
     9400,
     11000
    ],
-   "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "final_price": 11000,
+   "shares": 2300000,
+   "par_value": 500,
+   "method": "일반공모",
    "sub_start": "2026-11-04",
    "sub_end": "2026-11-05",
    "pay_date": "2026-11-09",
@@ -439,10 +439,7 @@
      "name": "대신증권",
      "alloc": "575,000주 ~ 690,000주",
      "limit": "57,000주 ~ 69,000주",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "3,000원",
-     "fee_free": true
+     "margin": "50%"
     }
    ],
    "demand_rate": null,
@@ -456,6 +453,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261008",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000649"
+    },
+    {
+     "rcept_no": "20261030000616",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261030",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616"
     }
    ]
   },
@@ -739,13 +742,13 @@
    ]
   },
   {
-   "rcept_no": "20261016000412",
+   "rcept_no": "20261103000363",
    "corp_code": "00618173",
    "corp_name": "씨앤엠",
-   "rcept_dt": "20261016",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261103",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000363",
    "price_band": [
     10000,
     13000
@@ -779,56 +782,13 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
-  },
-  {
-   "rcept_no": "20261027000363",
-   "corp_code": "01795859",
-   "corp_name": "엔키화이트햇",
-   "rcept_dt": "20261027",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000363",
-   "price_band": [
-    13000,
-    16500
-   ],
-   "final_price": null,
-   "shares": 1700000,
-   "par_value": 100,
-   "method": "일반공모",
-   "sub_start": "2026-11-12",
-   "sub_end": "2026-11-13",
-   "pay_date": "2026-11-17",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "신영증권",
-     "qty": 1700000
-    }
-   ],
-   "retail": [
-    {
-     "name": "신영증권",
-     "alloc": "425,000주 ~ 510,000주",
-     "limit": "주1)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "5,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
    "missing": [],
    "history": [
     {
-     "rcept_no": "20261008000660",
+     "rcept_no": "20261016000412",
      "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20261008",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000660"
+     "rcept_dt": "20261016",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412"
     }
    ]
   },
@@ -1160,6 +1120,63 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261020",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20261103000358",
+   "corp_code": "01795859",
+   "corp_name": "엔키화이트햇",
+   "rcept_dt": "20261103",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000358",
+   "price_band": [
+    13000,
+    16500
+   ],
+   "final_price": null,
+   "shares": 1700000,
+   "par_value": 100,
+   "method": "일반공모",
+   "sub_start": "2026-12-01",
+   "sub_end": "2026-12-02",
+   "pay_date": "2026-12-04",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "신영증권",
+     "qty": 1700000
+    }
+   ],
+   "retail": [
+    {
+     "name": "신영증권",
+     "alloc": "425,000주 ~ 510,000주",
+     "limit": "주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20261008000660",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261008",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000660"
+    },
+    {
+     "rcept_no": "20261027000363",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261027",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000363"
     }
    ]
   },
