@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-03 04:14",
- "count": 29,
+ "updated_at": "2026-11-03 12:16",
+ "count": 28,
  "items": [
   {
    "rcept_no": "20261021000443",
@@ -58,74 +58,6 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260909",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261021000334",
-   "corp_code": "01956751",
-   "corp_name": "래블업",
-   "rcept_dt": "20261021",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000334",
-   "price_band": [
-    19000,
-    22000
-   ],
-   "final_price": 19000,
-   "shares": 2180000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-10-22",
-   "sub_end": "2026-10-23",
-   "pay_date": "2026-10-27",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "NH투자증권",
-     "qty": 2180000
-    }
-   ],
-   "retail": [
-    {
-     "name": "NH투자증권",
-     "alloc": null,
-     "limit": null,
-     "margin": null
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [
-    "retail_limit"
-   ],
-   "history": [
-    {
-     "rcept_no": "20260825000318",
-     "report_nm": "[정정제출요구]증권신고서(지분증권)",
-     "rcept_dt": "20260825",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825000318"
-    },
-    {
-     "rcept_no": "20260921000390",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260921",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000390"
-    },
-    {
-     "rcept_no": "20261006000421",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261006",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000421"
-    },
-    {
-     "rcept_no": "20261014000436",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261014",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000436"
     }
    ]
   },
@@ -1181,13 +1113,13 @@
    ]
   },
   {
-   "rcept_no": "20261020000375",
+   "rcept_no": "20261103000106",
    "corp_code": "01366675",
    "corp_name": "에이엔에이치스트럭쳐",
-   "rcept_dt": "20261020",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261103",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000106",
    "price_band": [
     11200,
     13600
@@ -1221,7 +1153,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20261020000375",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261020",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375"
+    }
+   ]
   },
   {
    "rcept_no": "20261026000285",
