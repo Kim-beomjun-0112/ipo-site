@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04 10:48",
+ "updated_at": "2026-11-05 01:53",
  "count": 26,
  "items": [
   {
@@ -458,18 +458,18 @@
    ]
   },
   {
-   "rcept_no": "20261030000140",
+   "rcept_no": "20261104000314",
    "corp_code": "01797635",
    "corp_name": "에이엘로봇",
-   "rcept_dt": "20261030",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261104",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000140",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000314",
    "price_band": [
     15700,
     17600
    ],
-   "final_price": null,
+   "final_price": 17600,
    "shares": 2400000,
    "par_value": 500,
    "method": "일반공모",
@@ -488,10 +488,7 @@
      "name": "대신증권",
      "alloc": "600,000주 ~ 720,000주",
      "limit": "48,000주 ~ 60,000주",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "3,000원",
-     "fee_free": true
+     "margin": "50%"
     }
    ],
    "demand_rate": null,
@@ -511,6 +508,12 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20261012",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000490"
+    },
+    {
+     "rcept_no": "20261030000140",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261030",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000140"
     }
    ]
   },
@@ -674,13 +677,13 @@
    ]
   },
   {
-   "rcept_no": "20261016000426",
+   "rcept_no": "20261104000145",
    "corp_code": "01403198",
    "corp_name": "제이앤티지",
-   "rcept_dt": "20261016",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261104",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000426",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000145",
    "price_band": [
     26400,
     31900
@@ -725,16 +728,24 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20261016000426",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261016",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000426"
+    }
+   ]
   },
   {
-   "rcept_no": "20261019000368",
+   "rcept_no": "20261104000099",
    "corp_code": "00299109",
    "corp_name": "에스에프씨",
-   "rcept_dt": "20261019",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261104",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099",
    "price_band": [
     31600,
     36100
@@ -790,7 +801,15 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스피",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20261019000368",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261019",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368"
+    }
+   ]
   },
   {
    "rcept_no": "20261027000312",
