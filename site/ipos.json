@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-04 01:51",
- "count": 28,
+ "updated_at": "2026-11-04 10:48",
+ "count": 26,
  "items": [
   {
    "rcept_no": "20261021000443",
@@ -58,125 +58,6 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260909",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261021000363",
-   "corp_code": "01378005",
-   "corp_name": "이에스티",
-   "rcept_dt": "20261021",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000363",
-   "price_band": [
-    10600,
-    12400
-   ],
-   "final_price": 12400,
-   "shares": 2200000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-10-22",
-   "sub_end": "2026-10-23",
-   "pay_date": "2026-10-27",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "대신증권",
-     "qty": 2200000
-    }
-   ],
-   "retail": [
-    {
-     "name": "대신증권",
-     "alloc": "550,000주 ~ 660,000주",
-     "limit": "54,000주 ~ 66,000주",
-     "margin": "50%"
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260921000211",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260921",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000211"
-    },
-    {
-     "rcept_no": "20261013000268",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261013",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000268"
-    },
-    {
-     "rcept_no": "20261020000144",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261020",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000144"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261022000373",
-   "corp_code": "02036869",
-   "corp_name": "아이엠기업인수목적1호",
-   "rcept_dt": "20261022",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000373",
-   "price_band": null,
-   "final_price": 2000,
-   "shares": null,
-   "par_value": null,
-   "method": null,
-   "sub_start": "2026-10-26",
-   "sub_end": "2026-10-27",
-   "pay_date": "2026-10-29",
-   "underwriters": [
-    {
-     "role": "대표",
-     "name": "아이엠증권",
-     "qty": 5000000
-    }
-   ],
-   "retail": [
-    {
-     "name": "아이엠증권",
-     "alloc": "1,250,000주~ 1,500,000주",
-     "limit": "125,000주~ 150,000주",
-     "margin": "100%"
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": true,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [
-    "price_band"
-   ],
-   "history": [
-    {
-     "rcept_no": "20260917000220",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260917",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917000220"
-    },
-    {
-     "rcept_no": "20261008000158",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261008",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000158"
-    },
-    {
-     "rcept_no": "20261008000225",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261008",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000225"
     }
    ]
   },
