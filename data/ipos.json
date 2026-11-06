@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06 10:57",
+ "updated_at": "2026-11-07 01:38",
  "count": 26,
  "items": [
   {
@@ -1081,13 +1081,13 @@
    ]
   },
   {
-   "rcept_no": "20261026000285",
+   "rcept_no": "20261106000449",
    "corp_code": "02040710",
    "corp_name": "우리투자제1호기업인수목적",
-   "rcept_dt": "20261026",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261106",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000285",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000449",
    "price_band": null,
    "final_price": null,
    "shares": null,
@@ -1120,6 +1120,14 @@
    "market": "코스닥",
    "missing": [
     "price_band"
+   ],
+   "history": [
+    {
+     "rcept_no": "20261026000285",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261026",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000285"
+    }
    ]
   },
   {
