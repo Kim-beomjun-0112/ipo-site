@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-10 04:32",
- "count": 26,
+ "updated_at": "2026-11-10 12:55",
+ "count": 25,
  "items": [
   {
    "rcept_no": "20261021000443",
@@ -115,60 +115,6 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20260918",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000439"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261030000113",
-   "corp_code": "00784184",
-   "corp_name": "동원파츠",
-   "rcept_dt": "20261030",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113",
-   "price_band": [
-    23000,
-    26500
-   ],
-   "final_price": 26500,
-   "shares": 2030000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-11-02",
-   "sub_end": "2026-11-03",
-   "pay_date": "2026-11-05",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "삼성증권",
-     "qty": 2030000
-    }
-   ],
-   "retail": [
-    {
-     "name": "삼성증권",
-     "alloc": "507,500주 ~ 609,000주",
-     "limit": "(주1)",
-     "margin": "50%"
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20261001000579",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20261001",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000579"
-    },
-    {
-     "rcept_no": "20261023000331",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261023",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000331"
     }
    ]
   },
