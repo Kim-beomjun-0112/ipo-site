@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-10 12:55",
- "count": 25,
+ "updated_at": "2026-11-11 01:50",
+ "count": 26,
  "items": [
   {
    "rcept_no": "20261021000443",
@@ -58,63 +58,6 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260909",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261015000329",
-   "corp_code": "01705740",
-   "corp_name": "엠비디",
-   "rcept_dt": "20261015",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000329",
-   "price_band": [
-    9600,
-    11700
-   ],
-   "final_price": null,
-   "shares": 2000000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-10-28",
-   "sub_end": "2026-10-29",
-   "pay_date": "2026-11-02",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "하나증권",
-     "qty": 2000000
-    }
-   ],
-   "retail": [
-    {
-     "name": "하나증권",
-     "alloc": "500,000주 ~ 600,000주",
-     "limit": "주)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "4,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260828001853",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260828",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853"
-    },
-    {
-     "rcept_no": "20260918000439",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260918",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000439"
     }
    ]
   },
@@ -635,6 +578,69 @@
    ]
   },
   {
+   "rcept_no": "20261110000253",
+   "corp_code": "01705740",
+   "corp_name": "엠비디",
+   "rcept_dt": "20261110",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000253",
+   "price_band": [
+    9600,
+    11700
+   ],
+   "final_price": 7000,
+   "shares": 2000000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-11-12",
+   "sub_end": "2026-11-13",
+   "pay_date": "2026-11-17",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "하나증권",
+     "qty": 2000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "하나증권",
+     "alloc": "500,000주",
+     "limit": "주)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "4,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260828001853",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260828",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853"
+    },
+    {
+     "rcept_no": "20260918000439",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20260918",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000439"
+    },
+    {
+     "rcept_no": "20261015000329",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261015",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000329"
+    }
+   ]
+  },
+  {
    "rcept_no": "20261104000145",
    "corp_code": "01403198",
    "corp_name": "제이앤티지",
@@ -1138,6 +1144,60 @@
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153"
     }
    ]
+  },
+  {
+   "rcept_no": "20261110000330",
+   "corp_code": "01136597",
+   "corp_name": "마더스제약",
+   "rcept_dt": "20261110",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000330",
+   "price_band": [
+    11000,
+    14500
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-08",
+   "sub_end": "2026-12-09",
+   "pay_date": "2026-12-11",
+   "underwriters": [
+    {
+     "role": "공동대표주관",
+     "name": "KB증권",
+     "qty": 1200000
+    },
+    {
+     "role": "공동대표주관",
+     "name": "NH투자증권",
+     "qty": 1200000
+    }
+   ],
+   "retail": [
+    {
+     "name": "KB증권",
+     "alloc": "300,000주 ~ 360,000주",
+     "limit": "주)",
+     "margin": "50%",
+     "fee_online": "1,500원",
+     "fee_offline": "4,000원",
+     "fee_free": true
+    },
+    {
+     "name": "NH투자증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
   },
   {
    "rcept_no": "20261022000478",
