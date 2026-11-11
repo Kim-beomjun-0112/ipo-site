@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11 10:39",
+ "updated_at": "2026-11-12 02:00",
  "count": 25,
  "items": [
   {
@@ -347,63 +347,6 @@
    ]
   },
   {
-   "rcept_no": "20261030000682",
-   "corp_code": "01706509",
-   "corp_name": "다비오",
-   "rcept_dt": "20261030",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000682",
-   "price_band": [
-    12300,
-    16600
-   ],
-   "final_price": null,
-   "shares": 1000000,
-   "par_value": 100,
-   "method": "일반공모",
-   "sub_start": "2026-11-10",
-   "sub_end": "2026-11-11",
-   "pay_date": "2026-11-13",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "대신증권",
-     "qty": 1000000
-    }
-   ],
-   "retail": [
-    {
-     "name": "대신증권",
-     "alloc": "250,000주 ~ 300,000주",
-     "limit": "24,000주 ~ 30,000주",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "3,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260915000390",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260915",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000390"
-    },
-    {
-     "rcept_no": "20261008000705",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261008",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705"
-    }
-   ]
-  },
-  {
    "rcept_no": "20261109000163",
    "corp_code": "01025617",
    "corp_name": "하나에어로다이내믹스",
@@ -716,13 +659,13 @@
    ]
   },
   {
-   "rcept_no": "20261027000312",
+   "rcept_no": "20261111000327",
    "corp_code": "01938746",
    "corp_name": "아델",
-   "rcept_dt": "20261027",
+   "rcept_dt": "20261111",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000312",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000327",
    "price_band": [
     18000,
     25000
@@ -774,17 +717,23 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261012",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000445"
+    },
+    {
+     "rcept_no": "20261027000312",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261027",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000312"
     }
    ]
   },
   {
-   "rcept_no": "20261028000471",
+   "rcept_no": "20261111000235",
    "corp_code": "02041694",
    "corp_name": "신영해피투모로우제12호기업인수목적",
-   "rcept_dt": "20261028",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261111",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000471",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000235",
    "price_band": null,
    "final_price": null,
    "shares": null,
@@ -817,6 +766,14 @@
    "market": "코스닥",
    "missing": [
     "price_band"
+   ],
+   "history": [
+    {
+     "rcept_no": "20261028000471",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261028",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000471"
+    }
    ]
   },
   {
@@ -924,6 +881,69 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261020",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20261111000426",
+   "corp_code": "01706509",
+   "corp_name": "다비오",
+   "rcept_dt": "20261111",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000426",
+   "price_band": [
+    12300,
+    16600
+   ],
+   "final_price": null,
+   "shares": 1000000,
+   "par_value": 100,
+   "method": "일반공모",
+   "sub_start": "2026-12-01",
+   "sub_end": "2026-12-02",
+   "pay_date": "2026-12-04",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 1000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "250,000주 ~ 300,000주",
+     "limit": "24,000주 ~ 30,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260915000390",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260915",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000390"
+    },
+    {
+     "rcept_no": "20261008000705",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261008",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705"
+    },
+    {
+     "rcept_no": "20261030000682",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261030",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000682"
     }
    ]
   },
@@ -1140,13 +1160,13 @@
    "missing": []
   },
   {
-   "rcept_no": "20261022000478",
+   "rcept_no": "20261111000319",
    "corp_code": "01860700",
    "corp_name": "인터엑스",
-   "rcept_dt": "20261022",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261111",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000319",
    "price_band": [
     10000,
     13000
@@ -1191,16 +1211,24 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20261022000478",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261022",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478"
+    }
+   ]
   },
   {
-   "rcept_no": "20261105000234",
+   "rcept_no": "20261111000341",
    "corp_code": "01077540",
    "corp_name": "씨아이에스케미칼",
-   "rcept_dt": "20261105",
+   "rcept_dt": "20261111",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000234",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000341",
    "price_band": [
     5400,
     6800
@@ -1241,6 +1269,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261019",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000343"
+    },
+    {
+     "rcept_no": "20261105000234",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261105",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000234"
     }
    ]
   },
