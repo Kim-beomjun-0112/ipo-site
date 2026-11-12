@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-12 11:39",
- "count": 24,
+ "updated_at": "2026-11-13 02:24",
+ "count": 25,
  "items": [
   {
    "rcept_no": "20261021000443",
@@ -1222,13 +1222,13 @@
    ]
   },
   {
-   "rcept_no": "20261028000336",
+   "rcept_no": "20261112000690",
    "corp_code": "00208709",
    "corp_name": "KTE",
-   "rcept_dt": "20261028",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261112",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000690",
    "price_band": [
     19000,
     23000
@@ -1262,7 +1262,21 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20261028000336",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261028",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336"
+    },
+    {
+     "rcept_no": "20261112000478",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261112",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000478"
+    }
+   ]
   },
   {
    "rcept_no": "20261028000434",
@@ -1298,6 +1312,63 @@
      "margin": "50%",
      "fee_online": "2,000원",
      "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261112000748",
+   "corp_code": "01912128",
+   "corp_name": "태석광학",
+   "rcept_dt": "20261112",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000748",
+   "price_band": [
+    17500,
+    20200
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-14",
+   "sub_end": "2026-12-15",
+   "pay_date": "2026-12-17",
+   "underwriters": [
+    {
+     "role": "공동대표주관회사",
+     "name": "신한투자증권",
+     "qty": 1734600
+    },
+    {
+     "role": "공동대표주관회사",
+     "name": "대신증권",
+     "qty": 743400
+    }
+   ],
+   "retail": [
+    {
+     "name": "신한투자증권",
+     "alloc": "433,650주 ~ 520,380주",
+     "limit": "주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    },
+    {
+     "name": "대신증권",
+     "alloc": "185,850주 ~ 223,020주",
+     "limit": "주2)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
      "fee_free": true
     }
    ],
