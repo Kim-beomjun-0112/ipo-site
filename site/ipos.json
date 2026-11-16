@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-16 01:06",
- "count": 25,
+ "updated_at": "2026-11-16 10:31",
+ "count": 24,
  "items": [
   {
    "rcept_no": "20261021000443",
@@ -58,60 +58,6 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20260909",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261103000312",
-   "corp_code": "00960234",
-   "corp_name": "영광와이케이엠씨",
-   "rcept_dt": "20261103",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000312",
-   "price_band": [
-    9400,
-    11000
-   ],
-   "final_price": 11000,
-   "shares": 2300000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-11-04",
-   "sub_end": "2026-11-05",
-   "pay_date": "2026-11-09",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "대신증권",
-     "qty": 2300000
-    }
-   ],
-   "retail": [
-    {
-     "name": "대신증권",
-     "alloc": "575,000주 ~ 690,000주",
-     "limit": "57,000주 ~ 69,000주",
-     "margin": "50%"
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20261008000649",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20261008",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000649"
-    },
-    {
-     "rcept_no": "20261030000616",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261030",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616"
     }
    ]
   },
