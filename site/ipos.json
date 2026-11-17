@@ -1,66 +1,7 @@
 {
- "updated_at": "2026-11-17 13:17",
- "count": 23,
+ "updated_at": "2026-11-18 03:14",
+ "count": 25,
  "items": [
-  {
-   "rcept_no": "20261021000443",
-   "corp_code": "01705573",
-   "corp_name": "유캐스트",
-   "rcept_dt": "20261021",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443",
-   "price_band": [
-    21000,
-    26000
-   ],
-   "final_price": null,
-   "shares": 800000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-10-19",
-   "sub_end": "2026-10-20",
-   "pay_date": "2026-10-22",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "유진투자증권",
-     "qty": 760000
-    },
-    {
-     "role": "인수회사",
-     "name": "신영증권",
-     "qty": 40000
-    }
-   ],
-   "retail": [
-    {
-     "name": "유진투자증권",
-     "alloc": "160,000주 ~ 200,000주",
-     "limit": "16,000주 ~ 20,000주",
-     "margin": "50%"
-    },
-    {
-     "name": "신영증권",
-     "alloc": null,
-     "limit": null,
-     "margin": null
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260909000378",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260909",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378"
-    }
-   ]
-  },
   {
    "rcept_no": "20261104000314",
    "corp_code": "01797635",
@@ -430,6 +371,71 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261019",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368"
+    }
+   ]
+  },
+  {
+   "rcept_no": "20261117000109",
+   "corp_code": "01705573",
+   "corp_name": "유캐스트",
+   "rcept_dt": "20261117",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000109",
+   "price_band": [
+    19000,
+    23000
+   ],
+   "final_price": 19000,
+   "shares": 800000,
+   "par_value": 500,
+   "method": "일반공모",
+   "sub_start": "2026-11-18",
+   "sub_end": "2026-11-19",
+   "pay_date": "2026-11-23",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "유진투자증권",
+     "qty": 760000
+    },
+    {
+     "role": "인수회사",
+     "name": "신영증권",
+     "qty": 40000
+    }
+   ],
+   "retail": [
+    {
+     "name": "유진투자증권",
+     "alloc": "160,000주 ~ 200,000주",
+     "limit": "16,000주 ~ 20,000주",
+     "margin": "50%"
+    },
+    {
+     "name": "신영증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260909000378",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260909",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378"
+    },
+    {
+     "rcept_no": "20261021000443",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261021",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443"
     }
    ]
   },
@@ -1225,6 +1231,49 @@
    ]
   },
   {
+   "rcept_no": "20261117000221",
+   "corp_code": "00566418",
+   "corp_name": "엠디에스코리아",
+   "rcept_dt": "20261117",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000221",
+   "price_band": [
+    9500,
+    11500
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-14",
+   "sub_end": "2026-12-15",
+   "pay_date": "2026-12-17",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "미래에셋증권",
+     "qty": 2250000
+    }
+   ],
+   "retail": [
+    {
+     "name": "미래에셋증권",
+     "alloc": "562,500주~ 675,000주",
+     "limit": "주1)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
    "rcept_no": "20261112000748",
    "corp_code": "01912128",
    "corp_name": "태석광학",
@@ -1272,6 +1321,49 @@
      "margin": "50%",
      "fee_online": "2,000원",
      "fee_offline": "3,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261117000140",
+   "corp_code": "01044092",
+   "corp_name": "이나인페이",
+   "rcept_dt": "20261117",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000140",
+   "price_band": [
+    7500,
+    10500
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-16",
+   "sub_end": "2026-12-17",
+   "pay_date": "2026-12-21",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "한국투자증권",
+     "qty": 6400000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한국투자증권",
+     "alloc": "1,600,000주 ~ 1,920,000주",
+     "limit": "52,000주 ~ 62,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
      "fee_free": true
     }
    ],
