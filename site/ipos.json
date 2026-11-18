@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18 12:16",
+ "updated_at": "2026-11-19 02:52",
  "count": 24,
  "items": [
   {
@@ -732,13 +732,13 @@
    ]
   },
   {
-   "rcept_no": "20261103000358",
+   "rcept_no": "20261118000343",
    "corp_code": "01795859",
    "corp_name": "엔키화이트햇",
-   "rcept_dt": "20261103",
+   "rcept_dt": "20261118",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000358",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000343",
    "price_band": [
     13000,
     16500
@@ -785,6 +785,12 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20261027",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000363"
+    },
+    {
+     "rcept_no": "20261103000358",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261103",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000358"
     }
    ]
   },
@@ -944,13 +950,13 @@
    "missing": []
   },
   {
-   "rcept_no": "20261111000319",
+   "rcept_no": "20261118000136",
    "corp_code": "01860700",
    "corp_name": "인터엑스",
-   "rcept_dt": "20261111",
+   "rcept_dt": "20261118",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000319",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000136",
    "price_band": [
     10000,
     13000
@@ -1002,6 +1008,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261022",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478"
+    },
+    {
+     "rcept_no": "20261111000319",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261111",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000319"
     }
    ]
   },
