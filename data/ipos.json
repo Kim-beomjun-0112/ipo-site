@@ -1,70 +1,7 @@
 {
- "updated_at": "2026-11-20 02:59",
- "count": 24,
+ "updated_at": "2026-11-20 11:47",
+ "count": 23,
  "items": [
-  {
-   "rcept_no": "20261109000163",
-   "corp_code": "01025617",
-   "corp_name": "하나에어로다이내믹스",
-   "rcept_dt": "20261109",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000163",
-   "price_band": [
-    4700,
-    5700
-   ],
-   "final_price": 5700,
-   "shares": 4400000,
-   "par_value": 100,
-   "method": "일반공모",
-   "sub_start": "2026-11-10",
-   "sub_end": "2026-11-11",
-   "pay_date": "2026-11-13",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "아이비케이투자증권",
-     "qty": 4400000
-    }
-   ],
-   "retail": [
-    {
-     "name": "아이비케이투자증권",
-     "alloc": "1,100,000주~1,320,000주",
-     "limit": "(주1)",
-     "margin": "50%",
-     "fee_online": "1,500원",
-     "fee_offline": null,
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260921000405",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260921",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000405"
-    },
-    {
-     "rcept_no": "20261016000159",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261016",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000159"
-    },
-    {
-     "rcept_no": "20261109000048",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261109",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000048"
-    }
-   ]
-  },
   {
    "rcept_no": "20261103000363",
    "corp_code": "00618173",
