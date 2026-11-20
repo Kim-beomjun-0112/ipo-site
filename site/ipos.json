@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-20 11:47",
- "count": 23,
+ "updated_at": "2026-11-21 02:35",
+ "count": 24,
  "items": [
   {
    "rcept_no": "20261103000363",
@@ -1254,6 +1254,60 @@
      "fee_online": "2,000원",
      "fee_offline": "5,000원",
      "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261120000538",
+   "corp_code": "01013612",
+   "corp_name": "피지티",
+   "rcept_dt": "20261120",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000538",
+   "price_band": [
+    18000,
+    20000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-17",
+   "sub_end": "2026-12-18",
+   "pay_date": "2026-12-22",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "한국투자증권",
+     "qty": 1330000
+    },
+    {
+     "role": "인수회사",
+     "name": "유안타증권",
+     "qty": 70000
+    }
+   ],
+   "retail": [
+    {
+     "name": "한국투자증권",
+     "alloc": "280,000주 ~ 350,000주",
+     "limit": "9,000주 ~ 11,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    },
+    {
+     "name": "유안타증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
     }
    ],
    "demand_rate": null,
