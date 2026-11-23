@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23 11:07",
+ "updated_at": "2026-11-24 05:55",
  "count": 24,
  "items": [
   {
@@ -385,18 +385,18 @@
    ]
   },
   {
-   "rcept_no": "20261111000235",
+   "rcept_no": "20261123000371",
    "corp_code": "02041694",
    "corp_name": "신영해피투모로우제12호기업인수목적",
-   "rcept_dt": "20261111",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "rcept_dt": "20261123",
+   "report_nm": "[발행조건확정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000235",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000371",
    "price_band": null,
-   "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "final_price": 2000,
+   "shares": 6250000,
+   "par_value": 100,
+   "method": "일반공모",
    "sub_start": "2026-11-24",
    "sub_end": "2026-11-25",
    "pay_date": "2026-11-27",
@@ -412,10 +412,7 @@
      "name": "신영증권",
      "alloc": "1,562,500주 ~ 1,875,000주",
      "limit": "주1)",
-     "margin": "100%",
-     "fee_online": "2,000원",
-     "fee_offline": "5,000원",
-     "fee_free": true
+     "margin": "100%"
     }
    ],
    "demand_rate": null,
@@ -431,6 +428,12 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261028",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000471"
+    },
+    {
+     "rcept_no": "20261111000235",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261111",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000235"
     }
    ]
   },
