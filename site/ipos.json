@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-24 05:55",
- "count": 24,
+ "updated_at": "2026-11-24 14:42",
+ "count": 23,
  "items": [
   {
    "rcept_no": "20261103000363",
@@ -50,69 +50,6 @@
      "report_nm": "증권신고서(지분증권)",
      "rcept_dt": "20261016",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412"
-    }
-   ]
-  },
-  {
-   "rcept_no": "20261110000253",
-   "corp_code": "01705740",
-   "corp_name": "엠비디",
-   "rcept_dt": "20261110",
-   "report_nm": "[발행조건확정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000253",
-   "price_band": [
-    9600,
-    11700
-   ],
-   "final_price": 7000,
-   "shares": 2000000,
-   "par_value": 500,
-   "method": "일반공모",
-   "sub_start": "2026-11-12",
-   "sub_end": "2026-11-13",
-   "pay_date": "2026-11-17",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "하나증권",
-     "qty": 2000000
-    }
-   ],
-   "retail": [
-    {
-     "name": "하나증권",
-     "alloc": "500,000주",
-     "limit": "주)",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "4,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260828001853",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260828",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001853"
-    },
-    {
-     "rcept_no": "20260918000439",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20260918",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918000439"
-    },
-    {
-     "rcept_no": "20261015000329",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261015",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000329"
     }
    ]
   },
