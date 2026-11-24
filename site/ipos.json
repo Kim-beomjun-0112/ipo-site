@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-24 14:42",
- "count": 23,
+ "updated_at": "2026-11-25 05:00",
+ "count": 24,
  "items": [
   {
    "rcept_no": "20261103000363",
@@ -546,69 +546,6 @@
    ]
   },
   {
-   "rcept_no": "20261111000426",
-   "corp_code": "01706509",
-   "corp_name": "다비오",
-   "rcept_dt": "20261111",
-   "report_nm": "[기재정정]증권신고서(지분증권)",
-   "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000426",
-   "price_band": [
-    12300,
-    16600
-   ],
-   "final_price": null,
-   "shares": 1000000,
-   "par_value": 100,
-   "method": "일반공모",
-   "sub_start": "2026-12-01",
-   "sub_end": "2026-12-02",
-   "pay_date": "2026-12-04",
-   "underwriters": [
-    {
-     "role": "대표주관회사",
-     "name": "대신증권",
-     "qty": 1000000
-    }
-   ],
-   "retail": [
-    {
-     "name": "대신증권",
-     "alloc": "250,000주 ~ 300,000주",
-     "limit": "24,000주 ~ 30,000주",
-     "margin": "50%",
-     "fee_online": "2,000원",
-     "fee_offline": "3,000원",
-     "fee_free": true
-    }
-   ],
-   "demand_rate": null,
-   "is_spac": false,
-   "is_rights": false,
-   "market": "코스닥",
-   "missing": [],
-   "history": [
-    {
-     "rcept_no": "20260915000390",
-     "report_nm": "증권신고서(지분증권)",
-     "rcept_dt": "20260915",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000390"
-    },
-    {
-     "rcept_no": "20261008000705",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261008",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705"
-    },
-    {
-     "rcept_no": "20261030000682",
-     "report_nm": "[기재정정]증권신고서(지분증권)",
-     "rcept_dt": "20261030",
-     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000682"
-    }
-   ]
-  },
-  {
    "rcept_no": "20261118000343",
    "corp_code": "01795859",
    "corp_name": "엔키화이트햇",
@@ -825,6 +762,75 @@
    "is_rights": false,
    "market": "코스닥",
    "missing": []
+  },
+  {
+   "rcept_no": "20261124000306",
+   "corp_code": "01706509",
+   "corp_name": "다비오",
+   "rcept_dt": "20261124",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000306",
+   "price_band": [
+    12300,
+    16600
+   ],
+   "final_price": null,
+   "shares": 1000000,
+   "par_value": 100,
+   "method": "일반공모",
+   "sub_start": "2026-12-09",
+   "sub_end": "2026-12-10",
+   "pay_date": "2026-12-14",
+   "underwriters": [
+    {
+     "role": "대표주관회사",
+     "name": "대신증권",
+     "qty": 1000000
+    }
+   ],
+   "retail": [
+    {
+     "name": "대신증권",
+     "alloc": "250,000주 ~ 300,000주",
+     "limit": "24,000주 ~ 30,000주",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "3,000원",
+     "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20260915000390",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20260915",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000390"
+    },
+    {
+     "rcept_no": "20261008000705",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261008",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705"
+    },
+    {
+     "rcept_no": "20261030000682",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261030",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000682"
+    },
+    {
+     "rcept_no": "20261111000426",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261111",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000426"
+    }
+   ]
   },
   {
    "rcept_no": "20261118000136",
@@ -1194,6 +1200,71 @@
      "fee_online": "2,000원",
      "fee_offline": "5,000원",
      "fee_free": true
+    }
+   ],
+   "demand_rate": null,
+   "is_spac": false,
+   "is_rights": false,
+   "market": "코스닥",
+   "missing": []
+  },
+  {
+   "rcept_no": "20261124000540",
+   "corp_code": "01182790",
+   "corp_name": "범한메카텍",
+   "rcept_dt": "20261124",
+   "report_nm": "증권신고서(지분증권)",
+   "stock_code": "",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000540",
+   "price_band": [
+    22800,
+    28000
+   ],
+   "final_price": null,
+   "shares": null,
+   "par_value": null,
+   "method": null,
+   "sub_start": "2026-12-17",
+   "sub_end": "2026-12-18",
+   "pay_date": "2026-12-22",
+   "underwriters": [
+    {
+     "role": "공동대표주관회사",
+     "name": "NH투자증권",
+     "qty": 4045500
+    },
+    {
+     "role": "공동대표주관회사",
+     "name": "유진투자증권",
+     "qty": 4045500
+    },
+    {
+     "role": "인수회사",
+     "name": "BNK투자증권",
+     "qty": 609000
+    }
+   ],
+   "retail": [
+    {
+     "name": "NH투자증권",
+     "alloc": "1,011,375주 ~ 1,213,650주",
+     "limit": "주)",
+     "margin": "50%",
+     "fee_online": "2,000원",
+     "fee_offline": "5,000원",
+     "fee_free": true
+    },
+    {
+     "name": "유진투자증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
+    },
+    {
+     "name": "BNK투자증권",
+     "alloc": null,
+     "limit": null,
+     "margin": null
     }
    ],
    "demand_rate": null,
