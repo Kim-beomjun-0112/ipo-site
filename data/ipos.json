@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25 13:44",
+ "updated_at": "2026-11-26 03:59",
  "count": 24,
  "items": [
   {
@@ -710,13 +710,13 @@
    ]
   },
   {
-   "rcept_no": "20261110000330",
+   "rcept_no": "20261125000378",
    "corp_code": "01136597",
    "corp_name": "마더스제약",
-   "rcept_dt": "20261110",
-   "report_nm": "증권신고서(지분증권)",
+   "rcept_dt": "20261125",
+   "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000330",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000378",
    "price_band": [
     11000,
     14500
@@ -761,16 +761,24 @@
    "is_spac": false,
    "is_rights": false,
    "market": "코스닥",
-   "missing": []
+   "missing": [],
+   "history": [
+    {
+     "rcept_no": "20261110000330",
+     "report_nm": "증권신고서(지분증권)",
+     "rcept_dt": "20261110",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000330"
+    }
+   ]
   },
   {
-   "rcept_no": "20261124000306",
+   "rcept_no": "20261125000586",
    "corp_code": "01706509",
    "corp_name": "다비오",
-   "rcept_dt": "20261124",
+   "rcept_dt": "20261125",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000306",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000586",
    "price_band": [
     12300,
     16600
@@ -829,6 +837,12 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20261111",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000426"
+    },
+    {
+     "rcept_no": "20261124000306",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261124",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000306"
     }
    ]
   },
