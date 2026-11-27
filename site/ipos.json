@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27 12:53",
+ "updated_at": "2026-11-28 03:45",
  "count": 24,
  "items": [
   {
@@ -915,21 +915,21 @@
    ]
   },
   {
-   "rcept_no": "20261111000341",
+   "rcept_no": "20261127001324",
    "corp_code": "01077540",
    "corp_name": "씨아이에스케미칼",
-   "rcept_dt": "20261111",
+   "rcept_dt": "20261127",
    "report_nm": "[기재정정]증권신고서(지분증권)",
    "stock_code": "",
-   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000341",
+   "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001324",
    "price_band": [
     5400,
     6800
    ],
    "final_price": null,
-   "shares": null,
-   "par_value": null,
-   "method": null,
+   "shares": 4000000,
+   "par_value": 500,
+   "method": "일반공모",
    "sub_start": "2026-12-10",
    "sub_end": "2026-12-11",
    "pay_date": "2026-12-15",
@@ -968,6 +968,12 @@
      "report_nm": "[기재정정]증권신고서(지분증권)",
      "rcept_dt": "20261105",
      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000234"
+    },
+    {
+     "rcept_no": "20261111000341",
+     "report_nm": "[기재정정]증권신고서(지분증권)",
+     "rcept_dt": "20261111",
+     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000341"
     }
    ]
   },
